@@ -1,0 +1,25 @@
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 45rpx;
+  margin: 20rpx 0;
+  color: #2AA2D0;
+}
+.itemBox{
+  display: flex;
+  align-items: center;
+}
+.item{
+  text-align: center;
+  min-width: 600rpx;
+  margin-left: 40rpx;
+}
+.item image{
+  width: 100%;
+  height: 400rpx;
+}
+.itemText{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+

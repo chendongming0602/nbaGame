@@ -1,0 +1,11 @@
+<view class="title">请选择你的球队</view>
+<scroll-view
+  scroll-x="true"
+>
+  <view class="itemBox">
+    <view class="item" wx:for="{{10}}" wx:key="{{index}}">
+      <image src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/team/leiting.jpg"></image>
+      <view class="itemText">湖人队</view>
+    </view>
+  </view>
+</scroll-view>

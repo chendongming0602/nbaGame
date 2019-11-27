@@ -4,7 +4,7 @@
 >
   <view class="itemBox">
     <view class="item" wx:for="{{10}}" wx:key="{{index}}">
-      <image src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/team/leiting.jpg"></image>
+      <image src="http://minis-resources-1252149780.cosgz.myqcloud.com/lovers_magpie%20/logo.jpg"></image>
       <view class="itemText">湖人队</view>
     </view>
   </view>

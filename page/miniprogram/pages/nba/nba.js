@@ -21,12 +21,15 @@ Page({
   onReady: function () {
 
   },
-
+ 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    let a=new Object({
+      name:10
+    });
+    console.log(a)
   },
 
   /**
@@ -61,6 +64,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: "蜜囍美文",
+      imageUrl: "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/text/new/top.png",
+      path: '/pages/index/index?id=10'
+    };
   }
 })

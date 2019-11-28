@@ -5,7 +5,8 @@
     "teamImg":"所在球队图标",
     "team":"目前在哪个球队（名字）",
     "normal":true,
-    "mark":"球衣号码"
+    "mark":"球衣号码",
+    "location":"位置"
 }
 {
     "id":"2",
@@ -14,5 +15,6 @@
     "teamImg":"所在球队图标",
     "team":"目前在哪个球队（名字）",
     "normal":true,
-    "mark":"球衣号码"
+    "mark":"球衣号码",
+    "location":"位置"
 }

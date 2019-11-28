@@ -1,1 +1,8 @@
-<Select></Select>
+
+
+<view class="nbaBg" style="background:url('cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg') no-repeat center/cover">
+  <Select name="球队"></Select>
+  <view class="player">
+    <Select isPlayer="true" name="球员"></Select>
+  </view>
+</view>

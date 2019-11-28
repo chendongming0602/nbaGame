@@ -4,7 +4,11 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    isPlayer:{//球员
+      type:Boolean,
+      value:false
+    },
+    name:String
   },
 
   /**

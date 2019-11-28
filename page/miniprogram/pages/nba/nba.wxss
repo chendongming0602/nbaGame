@@ -1,1 +1,8 @@
-/* pages/nba/nba.wxss */
+
+
+.nbaBg{
+  height: 100vh;
+}
+.player{
+  margin-top: 50rpx;
+}

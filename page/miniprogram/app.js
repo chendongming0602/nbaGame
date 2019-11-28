@@ -17,11 +17,5 @@ App({
 
     this.globalData = {}
   },
-  onShow: function (e) {
-    console.log(e)
-    let a = new Object({
-      name: 10
-    });
-    console.log(a)
-  },
+
 })

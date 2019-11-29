@@ -5,9 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count:0
   },
-
+  itemEvent(e){//模板按钮
+    let { count } = e.currentTarget.dataset
+    this.setData({count})
+  },
   /**
    * 生命周期函数--监听页面加载
    */

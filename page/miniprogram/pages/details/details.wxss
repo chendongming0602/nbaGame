@@ -46,3 +46,28 @@
   padding: 0 30rpx;
   margin-top: 10rpx;
 }
+.swiBox{
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+}
+.swi{
+  height: 400rpx;
+}
+.swiImg{
+  width: 100%;
+  height: 100%;
+}
+.swiImg image{
+  width: 100%;
+  height: 100%;
+}
+.cece{
+  line-height: 80rpx;
+  text-align: center;
+  width: 100%;
+  background: #0f6cb4;
+  color: #fff;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  margin:30rpx 0;
+}

@@ -8,28 +8,39 @@
     <image class="teamImg" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/76%E4%BA%BA.jpg"></image>
   </view>
   <view class="classItem">
-    <view>资料</view>
-    <view>数据</view>
-    <view>主要奖项</view>
-    <view>效队生涯</view>
+    <view catchtap="itemEvent" data-count="0">资料</view>
+    <view catchtap="itemEvent" data-count="1">数据</view>
+    <view catchtap="itemEvent" data-count="2">主要奖项</view>
+    <view catchtap="itemEvent" data-count="3">效队生涯</view>
   </view>
 
   <view class="items" >
     <!-- 资料 -->
-    <view hidden="{{true}}">
+    <view hidden="{{count!=0}}">
       <info></info>
     </view>
     <!-- 数据 -->
-    <view hidden="{{true}}">
+    <view hidden="{{count!=1}}">
       <datas></datas>
     </view>
     <!-- 主要奖项 -->
-    <view hidden="{{true}}">
+    <view hidden="{{count!=2}}">
       <awards></awards>
     </view>
     <!-- 效队生涯 -->
-    <view hidden="{{false}}">
+    <view hidden="{{count!=3}}">
       <career></career>
     </view>
+  </view>
+
+  <view class="swiBox">
+    <swiper class="swi" autoplay="{{true}}" interval="3000">
+      <block wx:for="{{5}}" wx:key="{{index}}">
+        <swiper-item>
+          <image class="swiImg" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/76%E4%BA%BA.jpg" ></image>
+        </swiper-item>
+      </block> 
+    </swiper>
+     <view class="cece">测测!你确定了解他了吗？</view>
   </view>
 </view>

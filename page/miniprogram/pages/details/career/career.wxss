@@ -1,0 +1,15 @@
+.careerBox{
+  background: #fff;
+  padding-bottom: 20rpx;
+}
+.careerBox:before{
+  content:"";
+  display:table;  /*显示方式*/
+}
+.career{
+  line-height: 80rpx;
+  background: #EBF5F8;
+  color: #6A6A6A;
+  margin-top: 30rpx;
+  padding: 0 20rpx;
+}

@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "datas":"./data/data",
-    "info":"./info/info"
+    "info":"./info/info",
+    "awards":"./awards/awards",
+    "career":"./career/career"
   }
 }

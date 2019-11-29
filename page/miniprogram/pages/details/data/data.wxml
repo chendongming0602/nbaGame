@@ -1,1 +1,20 @@
-123
+<view class="dataBoxBox">
+  <view class="dataBox">
+    <view class="dataItem" wx:for="{{4}}" wx:key="{{index}}">
+      <view class="dataName">场均篮板</view>
+      <view>1000</view>
+    </view>
+  </view>
+  <view class="dataBox">
+    <view class="dataItem" wx:for="{{4}}" wx:key="{{index}}">
+      <view class="dataName">场均篮板</view>
+      <view>1000</view>
+    </view>
+  </view>
+  <view class="dataBox">
+    <view class="dataItem" wx:for="{{4}}" wx:key="{{index}}">
+      <view class="dataName">场均篮板</view>
+      <view>1000</view>
+    </view>
+  </view>
+</view>

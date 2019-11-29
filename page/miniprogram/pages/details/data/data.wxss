@@ -1,0 +1,23 @@
+.dataBoxBox{
+  background: #fff;
+  padding-bottom: 20rpx;
+}
+.dataBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20rpx;
+}
+.dataItem view{
+  width:150rpx;
+  line-height: 50rpx;
+  background: #dedede;
+  margin-top: 10rpx;
+  text-align: center;
+  border-radius: 5rpx;
+  
+}
+.dataItem .dataName{
+  background: #0f6db4;
+  color: #fff; 
+}

@@ -1,0 +1,3 @@
+<view class="awardsBox">
+  <view class="awards" wx:for="{{5}}" wx:key="{{index}}">三届NBA全明星赛最有价值球员奖（2006，2008，2018）</view>
+</view>

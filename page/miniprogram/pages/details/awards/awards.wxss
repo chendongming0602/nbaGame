@@ -1,0 +1,17 @@
+.awards{
+  line-height: 50rpx;
+  /* text-align: center; */
+  margin-top: 30rpx;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  font-size: 24rpx;
+  color: rgb(88, 88, 88);
+}
+.awardsBox:before{
+  content:"";
+  display:table;  /*显示方式*/
+}
+.awardsBox{
+  background: #fff;
+  padding: 0 20rpx 20rpx;
+}

@@ -161,5 +161,6 @@ view, scroll-view, swiper, button, input, textarea, label, navigator, image {
   box-sizing: border-box;
   font-size: 28rpx;
   color: #333;
-  --border: #DEDEDE;
+  /* --border: #DEDEDE;
+  --background: #0f6cb4; */
 }

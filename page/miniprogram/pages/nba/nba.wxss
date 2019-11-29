@@ -1,8 +1,73 @@
 
-
+.nbaBgImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
 .nbaBg{
   height: 100vh;
+  /* padding-left: 40rpx; */
 }
 .player{
+  margin-top: 30rpx;
+}
+.active{
+  margin-top:20rpx;
+  padding: 20rpx 40rpx 0;
+  border-top: 2px solid #DEDEDE;
+}
+.activeTitle{
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: bold;
   margin-top: 50rpx;
+  padding: 10rpx 0;
+  border-top: 2px solid #DEDEDE;
+}
+.activeItem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.activeItem1{
+  width: 100%;
+  text-align: center;
+}
+.activeItem11{
+  margin-right: 15rpx;
+}
+.activeItem12{
+  margin-left: 15rpx;
+}
+.item11{
+  background: #0f6cb4;
+  color: #fff;
+  font-size: 30rpx;
+  
+}
+.item12{
+  background: #ddd;
+  margin-top: 5rpx;
+}
+.activeItem1 view{
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+
+.details{
+  background:#0f6cb4;
+  line-height: 85rpx;
+  font-size: 30rpx;
+  width: 100%;
+  margin: 40rpx auto 10rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  color: #fff;
 }

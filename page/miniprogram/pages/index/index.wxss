@@ -12,7 +12,7 @@
   line-height: 70rpx;
   text-align: center;
   width: 280rpx;
-  background: #b44905;
+  background: #0f6cb4;
   color: #fff;
   border-radius: 10rpx;
   font-size: 30rpx;

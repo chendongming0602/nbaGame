@@ -17,11 +17,14 @@ Component({
   data: {
 
   },
-
   /**
    * 组件的方法列表
    */
   methods: {
-
+    seEvent(e) {
+      let { name } = e.currentTarget.dataset
+      this.triggerEvent('selectTeam', name);//球队
+      this.triggerEvent('selectMember', name);//球员
+    },
   }
 })

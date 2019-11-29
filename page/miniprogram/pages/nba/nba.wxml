@@ -1,8 +1,24 @@
 
 
-<view class="nbaBg" style="background:url('cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg') no-repeat center/cover">
-  <Select name="球队"></Select>
+<view class="nbaBg" >
+  <Select name="球队" bind:selectTeam="selectTeam"></Select>
   <view class="player">
-    <Select isPlayer="true" name="球员"></Select>
+    <Select isPlayer="true" name="球员" bind:selectMember="selectMember"></Select>
   </view>
+  <view class="active">
+    <!-- <view class="activeTitle">你的选择</view> -->
+    <view class="activeItem">
+      <view class="activeItem1 activeItem11">
+        <view class="item11">选择的球队</view>
+        <view class="item12">{{team}}</view>
+      </view>
+      <view class="activeItem1 activeItem12">
+        <view class="item11">选择的球员</view>
+        <view class="item12">{{Member}}</view>
+      </view>
+    </view>
+    <view class="details">确定进入</view>
+  </view>
+  <!-- 背景图 -->
+  <image class="nbaBgImg" mode="aspectFill" src="{{baImg}}"></image>
 </view>

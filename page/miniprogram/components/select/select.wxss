@@ -3,36 +3,43 @@
   font-weight: bold;
   font-size: 45rpx;
   margin: 20rpx 0;
-  color: #2AA2D0;
+  color: rgb(249, 10, 17);
 }
 .title2{
   font-size: 40rpx;
 }
+.itemText{
+  font-size: 35rpx;
+  font-weight: bold;
+  color: rgb(255, 184, 70);
+}
 .itemBox{
   display: flex;
   align-items: center;
+  /* padding-bottom: 20rpx; */
+  /* overflow: hidden; */
 }
+
 .item{
   text-align: center;
   min-width: 600rpx;
   margin-left: 40rpx;
+  /* margin-bottom: 20rpx; */
 }
 .item2{
   text-align: center;
   min-width: 280rpx;
-  margin-left: 40rpx;
   box-shadow:0px 0px 8px 0px rgba(0,0,0,0.24);
+}
+.item:first-child{
+  /* margin-left: 0rpx; */
 }
 .itemImg{
   width: 100%;
   height: 400rpx;
+  border-radius: 10rpx;
 }
 .itemImg2{
   width: 100%;
   height: 200rpx;
 }
-.itemText{
-  font-size: 40rpx;
-  font-weight: bold;
-}
-

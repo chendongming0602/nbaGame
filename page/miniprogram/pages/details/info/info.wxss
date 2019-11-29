@@ -1,0 +1,27 @@
+.dataNameBox{
+  width: 100%;
+  background: #fff;
+  padding-bottom: 30rpx;
+}
+.dataNameBox:before{
+  content:"";
+  display:table;  /*显示方式*/
+}
+.dataName{
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.dataName1{
+  margin-left: 20rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  min-width: 130rpx;
+}
+.dataName2{
+  line-height: 50rpx;
+  padding: 0 30rpx;
+  border-radius: 25rpx;
+  border: 2rpx solid #0f6cb4;
+  margin-left: 50rpx;
+}

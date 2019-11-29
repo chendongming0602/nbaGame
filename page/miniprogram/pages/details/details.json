@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "datas":"./data/data"
+    "datas":"./data/data",
+    "info":"./info/info"
   }
 }

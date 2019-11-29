@@ -1,5 +1,6 @@
-page{
- background:linear-gradient(180deg,rgb(17, 117, 134) 0%,rgb(137, 217, 231) 100%);
+.pageBox{
+  min-height: 100vh;
+  background:linear-gradient(180deg,rgb(17, 117, 134) 0%,rgb(137, 217, 231) 100%);
 }
 .topBox{
   padding: 30rpx;
@@ -43,4 +44,5 @@ page{
 }
 .items{
   padding: 0 30rpx;
+  margin-top: 10rpx;
 }

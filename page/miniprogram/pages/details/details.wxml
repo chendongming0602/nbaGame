@@ -1,16 +1,27 @@
-<!-- <view class="topBox">
-  <view class="picBox">
-    <image class="pic" mode="aspectFill" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/%E6%9C%AC-%E8%A5%BF%E8%92%99%E6%96%AF.png"></image>
-    <view class="name">詹姆斯--地方</view>
+
+<view class="pageBox">
+  <!-- <view class="topBox">
+    <view class="picBox">
+      <image class="pic" mode="aspectFill" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/%E6%9C%AC-%E8%A5%BF%E8%92%99%E6%96%AF.png"></image>
+      <view class="name">詹姆斯--地方</view>
+    </view>
+    <image class="teamImg" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/76%E4%BA%BA.jpg"></image>
   </view>
-  <image class="teamImg" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/76%E4%BA%BA.jpg"></image>
-</view>
-<view class="classItem">
-  <view>资料</view>
-  <view>数据</view>
-  <view>里程碑</view>
-  <view>效队生涯</view>
-</view> -->
-<view class="items">
-  <datas></datas>
+  <view class="classItem">
+    <view>资料</view>
+    <view>数据</view>
+    <view>里程碑</view>
+    <view>效队生涯</view>
+  </view> -->
+
+  <view class="items" >
+    <!-- 资料 -->
+    <view hidden="{{true}}">
+      <info></info>
+    </view>
+    <!-- 数据 -->
+    <view hidden="{{false}}">
+      <datas></datas>
+    </view>
+  </view>
 </view>

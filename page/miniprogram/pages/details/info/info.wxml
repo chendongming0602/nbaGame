@@ -1,0 +1,38 @@
+<view class="dataNameBox">
+  <view class="dataName">
+    <view class="dataName1">姓名:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">出生年月:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">身高:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">体重:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">国籍:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">效队:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">球衣号码:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">位置:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+  <view class="dataName">
+    <view class="dataName1">选秀年:</view>
+    <view class="dataName2">张牧师哈登</view>
+  </view>
+</view>

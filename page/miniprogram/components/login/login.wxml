@@ -1,0 +1,9 @@
+<view class="loginBox">
+  <view class="boxes">
+    <image class="boxesImg" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/球场1.png"></image>
+    <view class="boxesBtn">
+      <button open-type="getUserInfo" bindgetuserinfo="infoEvent">和篮球授个权</button>
+    </view>
+    <view class="boxesBtn" catchtap="clone">确定放弃和篮球约会吗?</view>
+  </view>
+</view>

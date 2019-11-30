@@ -30,6 +30,10 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 2,
 			"list": [
@@ -51,6 +55,12 @@
 					"name": "球员详情",
 					"pathName": "pages/details/details",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "合个照片",
+					"pathName": "pages/picture/picture",
 					"scene": null
 				}
 			]

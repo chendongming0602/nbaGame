@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/nba/nba",
-    "pages/details/details"
+    "pages/details/details",
+    "pages/picture/picture"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

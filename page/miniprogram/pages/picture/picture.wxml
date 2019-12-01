@@ -1,4 +1,11 @@
 <view class="picBox">
-  <image class="picBg" mode="aspectFill" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/nba/76%E4%BA%BA.jpg"></image>
+  <image class="picBg"  src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/canvas.jpg"></image>
   <image style="top:{{top}}px;left:{{left}}px"  class="yidong" bindtouchmove="move" bindtouchstart="start" src="http://minis-resources-1252149780.cosgz.myqcloud.com/lovers_magpie%20/logo.jpg" ></image>
+
 </view>
+
+<view catchtap="baocun" class="baocun"> 开始</view>
+
+  <canvas canvas-id="can" class="can">
+
+  </canvas>

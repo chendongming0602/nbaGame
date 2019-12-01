@@ -16,7 +16,7 @@
   background: #fff;
   margin: 0 auto;
   border-radius: 20rpx;
-  padding: 30rpx;
+  padding: 30rpx 45rpx;
 }
 .boxesBtn button{
   margin: 0;

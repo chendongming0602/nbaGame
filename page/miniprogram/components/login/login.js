@@ -5,7 +5,10 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    isAlbum:{
+      type:Number,
+      value:0,//1为打开设置页，其他是用户信息
+    }
   },
 
   /**
@@ -21,6 +24,10 @@ Component({
   methods: {
     clone(){//关闭
       this.triggerEvent("close");
+      this.triggerEvent("albumEvent");
+    },
+    openSetting(){//点击了进去设置页面
+      this.triggerEvent("albumEvent");
     },
     infoEvent(e){
       if (e.detail.rawData) {//同意授权

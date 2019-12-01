@@ -1,11 +1,20 @@
 <view class="picBox">
-  <image class="picBg"  src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/canvas.jpg"></image>
-  <image style="top:{{top}}px;left:{{left}}px"  class="yidong" bindtouchmove="move" bindtouchstart="start" src="http://minis-resources-1252149780.cosgz.myqcloud.com/lovers_magpie%20/logo.jpg" ></image>
-
+  <view class="topScrll topScrllA" wx:if="{{textShow}}">头像可随意移动位置...</view>
+  <!-- 背景 -->
+  <image class="picBg"  src="{{imgList[0]}}"></image>
+  <!-- 头像 -->
+  <image  style="top:{{top}}px;left:{{left}}px"  class="pic" bindtouchmove="move" bindtouchend="chend" src="{{imgList[1]}}" ></image>
+  <!-- 球号 -->
+  <view class="count" style="top:{{textHieght-70}}px">{{value}}</view>
+  <!-- 按钮 -->
+  <view class="btn" wx:if="{{bunShow}}">
+    <view class="btn1" catchtap="picEvent">更换头像</view>
+    <input maxlength="2" bindinput="inputEvent" type="number"  placeholder="输入球衣号码" class="input"></input>
+    <view catchtap="baocun">保存成图片</view>
+  </view>
+</view>
+<view hidden="{{albumShow}}">
+  <albumLogin isAlbum="1" bind:albumEvent="albumEvent"></albumLogin>
 </view>
 
-<view catchtap="baocun" class="baocun"> 开始</view>
-
-  <canvas canvas-id="can" class="can">
-
-  </canvas>
+<canvas canvas-id="can" class="can"></canvas>

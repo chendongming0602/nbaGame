@@ -15,18 +15,24 @@ Page({
     this.setData({ loginShow:false})
   },
   confirm(){//同意授权
-    this.setData({ isPower: true })
+    this.setData({ isPower: true });
+    wx.navigateTo({
+      url: '/pages/picture/picture',
+    })
   },
   itemEvent(e){//列表按钮
     let { index } = e.currentTarget.dataset;
     if(index==2){
-      if (this.data.isPower){
-
-      }else{
-        this.setData({ loginShow:true})
-      }
+      wx.navigateTo({
+        url: '/pages/picture/picture',
+      })
+      // if (this.data.isPower){
+        
+      // }else{
+      //   this.setData({ loginShow:true})
+      // }
     }
-    console.log(e)
+    // console.log(e)
   },
   onLoad: function() {
     if (APP.isAPPLoad){//和APP回调判断是否授权了

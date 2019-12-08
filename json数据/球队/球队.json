@@ -38,68 +38,69 @@
         },
         {
             "id":"8",
-            "name":"小牛队",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/小牛.jpg"
-        },
-        {
-            "id":"9",
             "name":"尼克斯队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg"
         },
+        
         {
-            "id":"10",
-            "name":"山猫队",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/山猫.jpg"
-        },
-        {
-            "id":"11",
+            "id":"9",
             "name":"开拓者队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg"
         },
         {
-            "id":"12",
+            "id":"10",
+            "name":"快船队",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg"
+        },
+        {
+            "id":"11",
             "name":"掘金队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg"
         },
         {
-            "id":"13",
+            "id":"12",
             "name":"森林狼队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg"
         },
         {
-            "id":"14",
+            "id":"13",
             "name":"步行者队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg"
         },
         {
-            "id":"15",
+            "id":"14",
             "name":"活塞队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg"
         },
         {
-            "id":"16",
+            "id":"15",
             "name":"湖人队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg"
         },
         {
-            "id":"17",
+            "id":"16",
             "name":"火箭队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg"
         },
         {
-            "id":"18",
+            "id":"17",
             "name":"灰熊队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg"
         },
         {
-            "id":"19",
+            "id":"18",
             "name":"热火队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg"
         },
         {
-            "id":"20",
+            "id":"19",
             "name":"爵士队",
             "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg"
+        },
+        {
+            "id":"20",
+            "name":"独行侠队",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg"
         },
         {
             "id":"21",

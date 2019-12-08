@@ -1,9 +1,38 @@
 {
     "id":"1",
-    "info":[
-        {
-            "name":"",
-            "age":""
-        }
-    ]
+    "info":  {
+        "name":"名字",
+        "pic":"头像",
+        "age":"出生年月",
+        "hieght":"身高",
+        "weight":"体重",
+        "talent":"选秀年",
+        "nationality":"国籍",
+        "teamImg":"所在球队图标",
+        "team":"目前在哪个球队（名字）",
+        "normal":true,
+        "mark":"球衣号码",
+        "location":"位置"
+    },
+    "datas":{
+        "one":[
+            "数据一"
+        ],
+        "two":[
+            "数据二"
+        ],
+        "three":[
+            "数据三"
+        ]
+    },
+    "awards":[
+        "主要奖项"
+    ],
+    "career":[
+        "效队生涯"
+    ],
+    "img":[
+        "轮播图片"
+    ]  
+
 }

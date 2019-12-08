@@ -5,4 +5,5 @@ teamImg:所在球队图标（云储存）
 team：所在队伍
 normal：是否正常（默认正常true）
 mark:球衣号码
+location：位置
 提示：（json文件注意符号，不能有注释）

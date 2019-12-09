@@ -8,7 +8,8 @@ Component({
       type:Boolean,
       value:false
     },
-    name:String
+    name:String,
+    list:Array
   },
 
   /**
@@ -22,9 +23,9 @@ Component({
    */
   methods: {
     seEvent(e) {
-      let { name } = e.currentTarget.dataset
-      this.triggerEvent('selectTeam', name);//球队
-      this.triggerEvent('selectMember', name);//球员
+      let { name ,id} = e.currentTarget.dataset
+      this.triggerEvent('selectTeam', {name,id});//球队
+      this.triggerEvent('selectMember', { name, id });//球员
     },
   }
 })

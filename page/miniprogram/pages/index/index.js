@@ -31,6 +31,10 @@ Page({
       // }else{
       //   this.setData({ loginShow:true})
       // }
+    }else{
+      wx.navigateTo({
+        url: '/pages/nba/nba',
+      })
     }
     // console.log(e)
   },

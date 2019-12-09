@@ -3,9 +3,9 @@
   scroll-x="true"
 >
   <view class="itemBox">
-    <view class="item {{isPlayer?'item2':''}}" wx:for="{{10}}" wx:key="{{index}}" catchtap="seEvent" data-name="{{name}}">
-      <image class="itemImg {{isPlayer?'itemImg2':''}}" src="http://minis-resources-1252149780.cosgz.myqcloud.com/lovers_magpie%20/logo.jpg"></image>
-      <view class="itemText">湖人队</view>
+    <view class="item {{isPlayer?'item2':''}}" wx:for="{{list}}" wx:key="{{index}}" catchtap="seEvent" data-name="{{item.name}}" data-id="{{item.id}}">
+      <image class="itemImg {{isPlayer?'itemImg2':''}}" src="{{item.img}}"></image>
+      <view class="itemText">{{item.name}}</view>
     </view>
   </view>
 </scroll-view>

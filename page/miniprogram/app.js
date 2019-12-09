@@ -5,6 +5,10 @@ App({
   },
   isAPPLoad:false,
   onLaunch: function () {
+    wx.cloud.init({
+      traceUser: true,
+      env: 'dongming-y95n7'
+    })
     this.getUserPic().then(()=>{//授权
       this.isAPPLoad=true
       if (this.checkLoginReadyCallback) {
@@ -38,5 +42,17 @@ App({
     })
 
   },
-
+  toastS(text ="灌篮失败！请重新进入..."){
+    wx.showToast({
+      title: text,
+      duration:2000
+    })
+  },
+  loadS(text="正在训练中..."){
+    wx.showLoading({
+      title: text,
+      mask:true
+    })
+  },
+  
 })

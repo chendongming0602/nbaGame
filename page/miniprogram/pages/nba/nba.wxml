@@ -1,9 +1,9 @@
 
 
 <view class="nbaBg" >
-  <Select name="球队" bind:selectTeam="selectTeam"></Select>
+  <Select name="球队" bind:selectTeam="selectTeam" list="{{teamList}}"></Select>
   <view class="player">
-    <Select isPlayer="true" name="球员" bind:selectMember="selectMember"></Select>
+    <Select isPlayer="true" name="球员" bind:selectMember="selectMember" list="{{memList}}"></Select>
   </view>
   <view class="active">
     <!-- <view class="activeTitle">你的选择</view> -->

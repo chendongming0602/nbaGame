@@ -1,40 +1,40 @@
 {
-    "id":"1",
+    "id":1,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"哈里斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/哈里斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/哈里斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"恩比德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/恩比德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/恩比德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
-            "mark":"21",
+            "mark":21,
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"本-西蒙斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/本-西蒙斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/本-西蒙斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"理查德森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/理查德森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/理查德森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
@@ -42,23 +42,23 @@
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"科尔克马兹",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/科尔克马兹.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/科尔克马兹.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
-            "mark":"30",
+            "mark":30,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"霍福德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/霍福德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/76人/霍福德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/76人.jpg",
             "team":"费城76人队",
             "normal":true,
-            "mark":"42",
+            "mark":42,
             "location":"中锋"
         }
     ]
@@ -67,32 +67,32 @@
 
 
 {
-    "id":"2",
+    "id":2,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"扎克-拉文",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/扎克-拉文.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/扎克-拉文.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"温德尔-卡特二世",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/温德尔-卡特二世.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/温德尔-卡特二世.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"34",
+            "mark":34,
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"科比-怀特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/科比-怀特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/科比-怀特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
@@ -100,95 +100,95 @@
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"萨托兰斯基",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/萨托兰斯基.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/萨托兰斯基.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"31",
+            "mark":31,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"赛迪斯-杨",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/赛迪斯-杨.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/赛迪斯-杨.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"21",
+            "mark":21,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"钱德勒-哈奇森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/钱德勒-哈奇森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/钱德勒-哈奇森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"后卫"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"马尔卡宁",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/马尔卡宁.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/公牛/马尔卡宁.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/公牛.jpg",
             "team":"公牛队",
             "normal":true,
-            "mark":"24",
+            "mark":24,
             "location":"中锋"
         }
     ]
 }
 
 {
-    "id":"3",
+    "id":3,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"丹尼尔-西艾斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/丹尼尔-西艾斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/丹尼尔-西艾斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"27",
+            "mark":27,
             "location":"中锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"伊内斯-坎特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/伊内斯-坎特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/伊内斯-坎特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"戈登-海沃德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/戈登-海沃德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/戈登-海沃德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"20",
+            "mark":20,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"杰伦-布朗",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/杰伦-布朗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/杰伦-布朗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"杰森-塔图姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/杰森-塔图姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/杰森-塔图姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
@@ -196,99 +196,99 @@
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"肯巴-沃克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/肯巴-沃克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/肯巴-沃克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"马库斯-斯玛特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/马库斯-斯玛特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/凯尔特人/马库斯-斯玛特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",
             "team":"凯尔特人队",
             "normal":true,
-            "mark":"36",
+            "mark":36,
             "location":"后卫"
         }
     ]
 }
 
 {
-    "id":"4",
+    "id":4,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"伯克斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/伯克斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/伯克斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"克莱-汤普森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/克莱-汤普森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/克莱-汤普森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"凯-鲍曼",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/凯-鲍曼.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/凯-鲍曼.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"帕斯卡尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/帕斯卡尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/帕斯卡尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"斯蒂芬-库里",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/斯蒂芬-库里.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/斯蒂芬-库里.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"30",
+            "mark":30,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"格林",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/格林.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/格林.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"前锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"考利-斯坦",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/考利-斯坦.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/勇士/考利-斯坦.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/勇士.jpg",
             "team":"勇士队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"中锋"
         }
     ]
@@ -301,72 +301,72 @@
 
 
 {
-    "id":"5",
+    "id":5,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"别利察",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/别利察.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/别利察.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"88",
+            "mark":88,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"博格丹诺维",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/博格丹诺维.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/博格丹诺维.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"巴恩斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/巴恩斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/巴恩斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"40",
+            "mark":40,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"希尔德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/希尔德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/希尔德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"24",
+            "mark":24,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"约瑟夫",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/约瑟夫.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/约瑟夫.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"达龙-福克斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/达龙-福克斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/达龙-福克斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"阿里扎",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/阿里扎.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/阿里扎.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
@@ -374,13 +374,13 @@
             "location":"前锋"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"霍姆斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/霍姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/霍姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"前锋"
         }
     ]
@@ -390,76 +390,76 @@
 
 
 {
-    "id":"6",
+    "id":6,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"卡明斯基",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卡明斯基.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卡明斯基.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"中锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"卢比奥.",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卢比奥..png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卢比奥..png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"德安德烈-艾顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/德安德烈-艾顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/德安德烈-艾顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"中锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"德文-布克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/德文-布克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/德文-布克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"1",
+            "mark":1,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"泰勒-约翰逊",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/泰勒-约翰逊.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/泰勒-约翰逊.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"16",
+            "mark":16,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"萨里奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/萨里奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/萨里奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"20",
+            "mark":20,
             "location":"前锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"阿隆-贝恩斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/阿隆-贝恩斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/阿隆-贝恩斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
-            "mark":"46",
+            "mark":46,
             "location":"中锋"
         }
     ]
@@ -467,66 +467,66 @@
 
 
 {
-    "id":"7",
+    "id":7,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"乔丹-麦克雷",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/乔丹-麦克雷.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/乔丹-麦克雷.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"52",
+            "mark":52,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"以赛亚-托马斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/以赛亚-托马斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/以赛亚-托马斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"八村垒",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/八村垒.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/八村垒.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"布拉德利 -比尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/布拉德利 -比尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/布拉德利 -比尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"托马斯-布莱恩特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/托马斯-布莱恩特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/托马斯-布莱恩特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"特洛伊-小布朗",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/特洛伊-小布朗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/奇才/特洛伊-小布朗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/奇才.jpg",
             "team":"奇才队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"后卫"
         }
         
@@ -536,66 +536,66 @@
 
 
 {
-    "id":"8",
+    "id":8,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"RJ-巴雷特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/RJ-巴雷特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/RJ-巴雷特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"弗兰克-尼利基纳",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/弗兰克-尼利基纳.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/弗兰克-尼利基纳.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"朱利叶斯-兰德尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/朱利叶斯-兰德尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/朱利叶斯-兰德尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"30",
+            "mark":30,
             "location":"中锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"泰-吉布森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/泰-吉布森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/泰-吉布森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"67",
+            "mark":67,
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"艾弗里德-佩顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/艾弗里德-佩顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/艾弗里德-佩顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"马库斯-MORRIS SR",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/马库斯-MORRIS SR.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/尼克斯/马库斯-MORRIS SR.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/尼克斯.jpg",
             "team":"尼克斯队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"前锋"
         }
     ]
@@ -605,22 +605,22 @@
 
 
 {
-    "id":"9",
+    "id":9,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"CJ-迈克勒姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/CJ-迈克勒姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/CJ-迈克勒姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"利拉德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/利拉德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/利拉德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
@@ -628,19 +628,19 @@
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"努尔基奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/努尔基奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/努尔基奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"中锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"卡梅隆-安东尼",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/卡梅隆-安东尼.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/卡梅隆-安东尼.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
@@ -648,23 +648,23 @@
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"怀特塞德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/怀特塞德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/怀特塞德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
-            "mark":"21",
+            "mark":21,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"罗德尼-胡德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/罗德尼-胡德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/开拓者/罗德尼-胡德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/开拓者.jpg",
             "team":"开拓者队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         }
         
@@ -676,76 +676,76 @@
 
 
 {
-    "id":"10",
+    "id":10,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"保罗-乔治",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/保罗-乔治.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/保罗-乔治.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"哈克里斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/哈克里斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/哈克里斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"威廉姆斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/威廉姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/威廉姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"祖巴茨",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/祖巴茨.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/祖巴茨.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"40",
+            "mark":40,
             "location":"中锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"科怀-伦纳德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/科怀-伦纳德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/科怀-伦纳德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"蒙特雷斯-哈雷尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/蒙特雷斯-哈雷尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/蒙特雷斯-哈雷尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"贝弗利",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/贝弗利.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/快船/贝弗利.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/快船.jpg",
             "team":"快船队",
             "normal":true,
-            "mark":"21",
+            "mark":21,
             "location":"后卫"
         }
        
@@ -758,76 +758,76 @@
 
 
 {
-    "id":"11",
+    "id":11,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"哈里斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/哈里斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/哈里斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"14",
+            "mark":14,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"威尔-巴顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/威尔-巴顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/威尔-巴顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"格兰特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/格兰特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/格兰特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"比斯利",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/比斯利.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/比斯利.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"米尔萨普",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/米尔萨普.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/米尔萨普.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"约基奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/约基奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/约基奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"贾马尔-穆雷",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/贾马尔-穆雷.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/掘金/贾马尔-穆雷.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/掘金.jpg",
             "team":"掘金队",
             "normal":true,
-            "mark":"27",
+            "mark":27,
             "location":"后卫"
         }
         
@@ -837,66 +837,66 @@
 
 
 {
-    "id":"12",
+    "id":12,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"卡尔弗",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/卡尔弗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/卡尔弗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"唐斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/唐斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/唐斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"32",
+            "mark":32,
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"格拉汉姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/格拉汉姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/格拉汉姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"维金斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/维金斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/维金斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"罗伯特-考文顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/罗伯特-考文顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/罗伯特-考文顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"33",
+            "mark":33,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"贝茨-迪奥普",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/贝茨-迪奥普.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/森林狼/贝茨-迪奥普.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/森林狼.jpg",
             "team":"森林狼队",
             "normal":true,
-            "mark":"31",
+            "mark":31,
             "location":"前锋"
         }
   
@@ -907,76 +907,76 @@
 
 
 {
-    "id":"13",
+    "id":13,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"布罗格登",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/布罗格登.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/布罗格登.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"杰里米-兰姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/杰里米-兰姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/杰里米-兰姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"26",
+            "mark":26,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"沃伦",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/沃伦.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/沃伦.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"1",
+            "mark":1,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"萨博尼斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/萨博尼斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/萨博尼斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"中锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"萨姆纳",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/萨姆纳.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/萨姆纳.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"迈尔斯-特纳",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/迈尔斯-特纳.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/迈尔斯-特纳.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"33",
+            "mark":33,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"霍勒迪",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/霍勒迪.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/步行者/霍勒迪.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/步行者.jpg",
             "team":"步行者队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         }
   
@@ -987,52 +987,52 @@
 
 
 {
-    "id":"14",
+    "id":14,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"兰斯顿-加洛韦",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/兰斯顿-加洛韦.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/兰斯顿-加洛韦.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"卢克-肯纳德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/卢克-肯纳德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/卢克-肯纳德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"布雷克-格里芬",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/布雷克-格里芬.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/布雷克-格里芬.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"布鲁斯-布朗",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/布鲁斯-布朗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/布鲁斯-布朗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"德拉蒙德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/德拉蒙德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/德拉蒙德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
@@ -1040,23 +1040,23 @@
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"德里克-罗斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/德里克-罗斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/德里克-罗斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"后卫"
         },
         {
-            "id":"1",
+            "id":1,
             "name":"马基夫-莫里斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/马基夫-莫里斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/马基夫-莫里斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/活塞.jpg",
             "team":"活塞队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"前锋"
         }
   
@@ -1066,32 +1066,32 @@
 
 
 {
-    "id":"15",
+    "id":15,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"丹尼-格林",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/丹尼-格林.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/丹尼-格林.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"14",
+            "mark":14,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"勒布朗-詹姆斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/勒布朗-詹姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/勒布朗-詹姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"前锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"库兹玛",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/库兹玛.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/库兹玛.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1099,53 +1099,53 @@
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"戴维斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/戴维斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/戴维斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"考德威尔-波普",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考德威尔-波普.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考德威尔-波普.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"1",
+            "mark":1,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"考辛斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考辛斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考辛斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"霍华德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/霍华德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/霍华德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"39",
+            "mark":39,
             "location":"中锋"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"麦基",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/麦基.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/麦基.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"中锋"
         }
   
@@ -1159,52 +1159,52 @@
 
 
 {
-    "id":"16",
+    "id":16,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"P.J.-塔克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/P.J.-塔克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/P.J.-塔克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"17",
+            "mark":17,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"卡佩拉",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/卡佩拉.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/卡佩拉.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"埃里克-戈登",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/埃里克-戈登.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/埃里克-戈登.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"奥斯汀-里弗斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/奥斯汀-里弗斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/奥斯汀-里弗斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"威斯布鲁克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/威斯布鲁克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/威斯布鲁克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
@@ -1212,33 +1212,33 @@
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"泰森-钱德勒",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/泰森-钱德勒.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/泰森-钱德勒.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"19",
+            "mark":19,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"詹姆斯-哈登",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/詹姆斯-哈登.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/詹姆斯-哈登.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"后卫"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"麦克勒莫",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/麦克勒莫.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/火箭/麦克勒莫.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/火箭.jpg",
             "team":"火箭队",
             "normal":true,
-            "mark":"16",
+            "mark":16,
             "location":"后卫"
         }
   
@@ -1248,76 +1248,76 @@
 
 
 {
-    "id":"17",
+    "id":17,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"伊戈达拉",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/伊戈达拉.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/伊戈达拉.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"布鲁克斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/布鲁克斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/布鲁克斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"24",
+            "mark":24,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"杰-克劳德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/杰-克劳德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/杰-克劳德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"99",
+            "mark":99,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"泰厄斯-琼斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/泰厄斯-琼斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/泰厄斯-琼斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"21",
+            "mark":21,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"瓦兰西尤纳斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/瓦兰西尤纳斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/瓦兰西尤纳斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"17",
+            "mark":17,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"贾-莫兰特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/贾-莫兰特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/贾-莫兰特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"后卫"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"贾伦-小杰克逊",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/贾伦-小杰克逊.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/灰熊/贾伦-小杰克逊.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/灰熊.jpg",
             "team":"灰熊队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"中锋"
         }
   
@@ -1326,22 +1326,22 @@
 
 
 {
-    "id":"18",
+    "id":18,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"巴特勒",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/巴特勒.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/巴特勒.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"梅耶斯 -伦纳德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/梅耶斯 -伦纳德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/梅耶斯 -伦纳德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
@@ -1349,43 +1349,43 @@
             "location":"中锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"泰勒-希罗",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/泰勒-希罗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/泰勒-希罗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
-            "mark":"14",
+            "mark":14,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"肯德里克-纳恩",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/肯德里克-纳恩.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/肯德里克-纳恩.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"邓肯-罗宾逊",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/邓肯-罗宾逊.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/邓肯-罗宾逊.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
-            "mark":"55",
+            "mark":55,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"阿德巴约",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/阿德巴约.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/热火/阿德巴约.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/热火.jpg",
             "team":"热火队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"中锋"
         }
   
@@ -1395,66 +1395,66 @@
 
 
 {
-    "id":"19",
+    "id":19,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"乔-英格尔斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/乔-英格尔斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/乔-英格尔斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"博格丹诺维奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/博格丹诺维奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/博格丹诺维奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"44",
+            "mark":44,
             "location":"前锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"戈贝尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/戈贝尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/戈贝尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"27",
+            "mark":27,
             "location":"中锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"米切尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/米切尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/米切尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"45",
+            "mark":45,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"罗伊斯-奥尼尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/罗伊斯-奥尼尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/罗伊斯-奥尼尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"迈克-康利",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/迈克-康利.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/爵士/迈克-康利.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/爵士.jpg",
             "team":"爵士队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"后卫"
         }
   
@@ -1465,52 +1465,52 @@
 
 
 {
-    "id":"20",
+    "id":20,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"J.J.-巴里亚",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/J.J.-巴里亚.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/J.J.-巴里亚.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"卢卡-东契奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/卢卡-东契奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/卢卡-东契奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"77",
+            "mark":77,
             "location":"前锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"德隆-怀特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/德隆-怀特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/德隆-怀特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"55",
+            "mark":55,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"波尔津吉斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/波尔津吉斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/波尔津吉斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"中锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"芬尼-史密斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/芬尼-史密斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/芬尼-史密斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
@@ -1518,23 +1518,23 @@
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"马扬诺维奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/马扬诺维奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/马扬诺维奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"51",
+            "mark":51,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"鲍威尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/鲍威尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/独行侠/鲍威尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/独行侠.jpg",
             "team":"独行侠队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"中锋"
         }
   
@@ -1544,66 +1544,66 @@
 
 
 {
-    "id":"21",
+    "id":21,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"OG-安纳诺比",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/OG-安纳诺比.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/OG-安纳诺比.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"范弗里特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/范弗里特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/范弗里特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"西亚卡姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/西亚卡姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/西亚卡姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"43",
+            "mark":43,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"诺曼-鲍威尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/诺曼-鲍威尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/诺曼-鲍威尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"24",
+            "mark":24,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"赛尔吉-伊巴卡",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/赛尔吉-伊巴卡.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/赛尔吉-伊巴卡.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"马克-加索尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/马克-加索尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/猛龙/马克-加索尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/猛龙.jpg",
             "team":"猛龙队",
             "normal":true,
-            "mark":"33",
+            "mark":33,
             "location":"中锋"
         }
   
@@ -1613,86 +1613,86 @@
 
 
 {
-    "id":"22",
+    "id":22,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"丁维迪",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/丁维迪.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/丁维迪.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"乔-哈里斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/乔-哈里斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/乔-哈里斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"凯文-杜兰特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/凯文-杜兰特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/凯文-杜兰特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"7",
+            "mark":7,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"凯里-欧文",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/凯里-欧文.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/凯里-欧文.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"坦普尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/坦普尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/坦普尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"17",
+            "mark":17,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"德安德烈-乔丹",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/德安德烈-乔丹.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/德安德烈-乔丹.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"中锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"普林斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/普林斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/普林斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"前锋"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"贾瑞特-艾伦",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/贾瑞特-艾伦.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/篮网/贾瑞特-艾伦.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/篮网.jpg",
             "team":"篮网队",
             "normal":true,
-            "mark":"31",
+            "mark":31,
             "location":"中锋"
         }
   
@@ -1702,66 +1702,66 @@
 
 
 {
-    "id":"23",
+    "id":23,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"坎姆-雷迪什",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/坎姆-雷迪什.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/坎姆-雷迪什.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"德安德烈-亨特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/德安德烈-亨特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/德安德烈-亨特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"文斯-卡特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/文斯-卡特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/文斯-卡特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"特雷-杨",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/特雷-杨.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/特雷-杨.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"贾巴里-帕克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/贾巴里-帕克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/贾巴里-帕克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"达米安-琼斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/达米安-琼斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/老鹰/达米安-琼斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/老鹰.jpg",
             "team":"老鹰队",
             "normal":true,
-            "mark":"30",
+            "mark":30,
             "location":"中锋"
         }
         
@@ -1771,66 +1771,66 @@
 
 
 {
-    "id":"24",
+    "id":24,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"乔治-希尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/乔治-希尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/乔治-希尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"凯尔-科沃尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/凯尔-科沃尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/凯尔-科沃尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"26",
+            "mark":26,
             "location":"前锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"布莱德索",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/布莱德索.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/布莱德索.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"6",
+            "mark":6,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"布鲁克-洛佩兹",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/布鲁克-洛佩兹.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/布鲁克-洛佩兹.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"中锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"阿德托昆博",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/阿德托昆博.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/阿德托昆博.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"34",
+            "mark":34,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"马休斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/马休斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雄鹿/马休斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雄鹿.jpg",
             "team":"雄鹿队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"后卫"
         }
         
@@ -1841,56 +1841,56 @@
 
 
 {
-    "id":"25",
+    "id":25,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"亚当斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/亚当斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/亚当斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雷霆.jpg",
             "team":"雷霆队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"中锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"亚当克里斯-保罗斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/克里斯-保罗.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/克里斯-保罗.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雷霆.jpg",
             "team":"雷霆队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"加里纳利",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/加里纳利.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/加里纳利.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雷霆.jpg",
             "team":"雷霆队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"吉尔杰斯-亚历山大",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/吉尔杰斯-亚历山大.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/吉尔杰斯-亚历山大.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雷霆.jpg",
             "team":"雷霆队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"前锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"施罗德",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/施罗德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/雷霆/施罗德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/雷霆.jpg",
             "team":"雷霆队",
             "normal":true,
-            "mark":"17",
+            "mark":17,
             "location":"后卫"
         }
         
@@ -1900,66 +1900,66 @@
 
 
 {
-    "id":"26",
+    "id":26,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"布林-福布斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/布林-福布斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/布林-福布斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"德永特-穆雷",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德永特-穆雷.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德永特-穆雷.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"德罗赞",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德罗赞.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德罗赞.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"德里克-怀特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德里克-怀特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/德里克-怀特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"珀尔特尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/珀尔特尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/珀尔特尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"阿尔德里奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/阿尔德里奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/马刺/阿尔德里奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/马刺.jpg",
             "team":"马刺队",
             "normal":true,
-            "mark":"12",
+            "mark":12,
             "location":"中锋"
         }
         
@@ -1969,22 +1969,22 @@
 
 
 {
-    "id":"27",
+    "id":27,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"乔丹-克拉克森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/乔丹-克拉克森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/乔丹-克拉克森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"8",
+            "mark":8,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"凯文-乐福",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/凯文-乐福.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/凯文-乐福.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
@@ -1992,63 +1992,63 @@
             "location":"前锋"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"凯文-小波特",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/凯文-小波特.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/凯文-小波特.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"加兰",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/加兰.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/加兰.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"塞克斯顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/塞克斯顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/塞克斯顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"2",
+            "mark":2,
             "location":"后卫"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"奥斯曼",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/奥斯曼.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/奥斯曼.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"16",
+            "mark":16,
             "location":"前锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"小拉里-南斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/小拉里-南斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/小拉里-南斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"22",
+            "mark":22,
             "location":"中锋"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"特里斯坦-汤普森",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/特里斯坦-汤普森.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/骑士/特里斯坦-汤普森.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/骑士.jpg",
             "team":"骑士队",
             "normal":true,
-            "mark":"13",
+            "mark":13,
             "location":"中锋"
         }
         
@@ -2058,82 +2058,82 @@
 
 
 {
-    "id":"28",
+    "id":28,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"埃文-富尼耶",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/埃文-富尼耶.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/埃文-富尼耶.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"奥古斯汀",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/奥古斯汀.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/奥古斯汀.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"14",
+            "mark":14,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"富尔茨",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/富尔茨.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/富尔茨.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"20",
+            "mark":20,
             "location":"后卫"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"武切维奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/武切维奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/武切维奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"9",
+            "mark":9,
             "location":"中锋"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"肯姆-博奇",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/肯姆-博奇.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/肯姆-博奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"24",
+            "mark":24,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"艾萨克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/艾萨克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/艾萨克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"1",
+            "mark":1,
             "location":"前锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"阿温杜",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/阿温杜.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/阿温杜.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"前锋"
         },
         {
-            "id":"8",
+            "id":8,
             "name":"阿隆-戈登",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/阿隆-戈登.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/魔术/阿隆-戈登.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/魔术.jpg",
             "team":"魔术队",
             "normal":true,
@@ -2146,76 +2146,76 @@
 
 
 {
-    "id":"29",
+    "id":29,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"弗兰克-杰克逊",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/弗兰克-杰克逊.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/弗兰克-杰克逊.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"15",
+            "mark":15,
             "location":"后卫"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"朱-霍勒迪",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/朱-霍勒迪.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/朱-霍勒迪.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"11",
+            "mark":11,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"海耶斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/海耶斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/海耶斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"10",
+            "mark":10,
             "location":"中锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"肯里奇-威廉姆斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/肯里奇-威廉姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/肯里奇-威廉姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"34",
+            "mark":34,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"英格拉姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/英格拉姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/英格拉姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"14",
+            "mark":14,
             "location":"前锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"锡安-威廉姆斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/锡安-威廉姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/锡安-威廉姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"1",
+            "mark":1,
             "location":"前锋"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"雷迪克",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/雷迪克.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/鹈鹕/雷迪克.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/鹈鹕.jpg",
             "team":"鹈鹕队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"后卫"
         }
     ]
@@ -2225,32 +2225,32 @@
 
 
 {
-    "id":"30",
+    "id":30,
     "list":[
         {
-            "id":"1",
+            "id":1,
             "name":"P.J.-华盛顿",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/P.J.-华盛顿.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/P.J.-华盛顿.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"25",
+            "mark":25,
             "location":"前锋"
         },
         {
-            "id":"2",
+            "id":2,
             "name":"尼古拉斯-巴图姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/尼古拉斯-巴图姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/尼古拉斯-巴图姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"5",
+            "mark":5,
             "location":"后卫"
         },
         {
-            "id":"3",
+            "id":3,
             "name":"布里奇斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/布里奇斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/布里奇斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
@@ -2258,43 +2258,43 @@
             "location":"前锋"
         },
         {
-            "id":"4",
+            "id":4,
             "name":"格拉汉姆",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/格拉汉姆.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/格拉汉姆.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"4",
+            "mark":4,
             "location":"后卫"
         },
         {
-            "id":"5",
+            "id":5,
             "name":"泽勒",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/泽勒.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/泽勒.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"40",
+            "mark":40,
             "location":"中锋"
         },
         {
-            "id":"6",
+            "id":6,
             "name":"科比-西蒙斯",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/科比-西蒙斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/科比-西蒙斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"23",
+            "mark":23,
             "location":"后卫"
         },
         {
-            "id":"7",
+            "id":7,
             "name":"罗齐尔",
-            "pic":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/罗齐尔.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/黄蜂/罗齐尔.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/黄蜂.jpg",
             "team":"黄蜂队",
             "normal":true,
-            "mark":"3",
+            "mark":3,
             "location":"后卫"
         }
         

@@ -1,4 +1,6 @@
 // pages/nba/nba.js
+const db = wx.cloud.database();
+const APP=getApp();
 Page({
 
   /**
@@ -7,25 +9,57 @@ Page({
   data: {
     team:"湖人队",
     Member:"詹姆斯",
-    baImg:"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/凯尔特人.jpg",//背景图
+    baImg:"",//背景图
+    teamList:[],
+    memList:[],
   },
   selectTeam(e){//选择的球队
-    let team=e.detail;
+  console.log(e)
+    let team=e.detail.name;
+    let id = e.detail.id;
     this.setData({
       team
     })
   },
   selectMember(e){//选择的球员
-    let Member = e.detail
+    let Member = e.detail.name;
+    let id = e.detail.id;
     this.setData({
       Member
+    })
+  },
+  teamEvent(){//球队
+    return db.collection("team").get().then(res=>{
+      let list = res.data[0].list
+      this.setData({ 
+        teamList: list,
+        team: list[0].name,
+      });
+      return list
+    }).catch(err=>{
+    })
+  },
+  MemberEvent(){//球员
+    return db.collection("member").where({
+      id:this._id
+    }).get().then(res => {
+      let list=res.data[0].list;
+      this.setData({
+        memList:list,
+        baImg: list[0].teamImg,
+      })
+    }).catch(err => {
+      console.log(res)
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.teamEvent().then(res=>{
+      this._id=res[0].id;
+      this.MemberEvent();
+    })
   },
 
   /**

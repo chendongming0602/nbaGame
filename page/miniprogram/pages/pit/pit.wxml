@@ -1,0 +1,13 @@
+<view class="box">
+  <image class="boxImg" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/bg.jpg" ></image>
+
+  <image class="allImg top" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg"></image>
+
+  <view class="dong" catchtap="dong">
+    <image src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀石头布动图.gif"></image>
+    <view class="dian dianA"></view>
+  </view>
+  
+
+  <image class="allImg bto" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg"></image>
+</view>

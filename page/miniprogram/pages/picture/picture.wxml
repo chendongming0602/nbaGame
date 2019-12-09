@@ -18,3 +18,7 @@
 </view>
 
 <canvas canvas-id="can" class="can"></canvas>
+
+<view hidden="{{isLoad}}">
+  <loadC ></loadC>
+</view>

@@ -12,11 +12,17 @@ Page({
     baImg:"",//背景图
     teamList:[],
     memList:[],
+    isLoad:false,//加载完成
   },
   selectTeam(e){//选择的球队
-  console.log(e)
     let team=e.detail.name;
     let id = e.detail.id;
+    if(id==this._id) return APP.toastS("已经是当前球队！");
+    this._id=id;
+    APP.loadS();
+    this.MemberEvent().then(()=>{
+      wx.hideLoading();
+    });
     this.setData({
       team
     })
@@ -24,6 +30,7 @@ Page({
   selectMember(e){//选择的球员
     let Member = e.detail.name;
     let id = e.detail.id;
+    this._Mid=id;
     this.setData({
       Member
     })
@@ -35,9 +42,9 @@ Page({
         teamList: list,
         team: list[0].name,
       });
+      this._id = list[0].id;
       return list
-    }).catch(err=>{
-    })
+    });
   },
   MemberEvent(){//球员
     return db.collection("member").where({
@@ -47,18 +54,27 @@ Page({
       this.setData({
         memList:list,
         baImg: list[0].teamImg,
-      })
-    }).catch(err => {
-      console.log(res)
-    })
+        Member: list[0].name
+      });
+      this._Mid = list[0].id;
+    });
+  },
+  affirm(){
+    console.log(this._id,this._Mid);
+    APP.toastS("目前暂未开启此功能！")
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     this.teamEvent().then(res=>{
-      this._id=res[0].id;
-      this.MemberEvent();
+      this.MemberEvent().then(()=>{
+        setTimeout(()=>{
+          this.setData({isLoad:true});
+        },2000)
+      });
+    }).catch(()=>{
+      APP.toastS();
     })
   },
 

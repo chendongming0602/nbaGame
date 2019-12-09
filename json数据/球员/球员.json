@@ -315,8 +315,8 @@
         },
         {
             "id":2,
-            "name":"博格丹诺维",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/博格丹诺维.png",
+            "name":"博格丹诺维奇",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/国王/博格丹诺维奇.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/国王.jpg",
             "team":"国王队",
             "normal":true,
@@ -405,7 +405,7 @@
         {
             "id":2,
             "name":"卢比奥.",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卢比奥..png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/太阳/卢比奥.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/太阳.jpg",
             "team":"太阳队",
             "normal":true,
@@ -1071,7 +1071,7 @@
         {
             "id":1,
             "name":"丹尼-格林",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/丹尼-格林.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/丹尼-格林.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1081,7 +1081,7 @@
         {
             "id":2,
             "name":"勒布朗-詹姆斯",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/勒布朗-詹姆斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/勒布朗-詹姆斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1091,7 +1091,7 @@
         {
             "id":3,
             "name":"库兹玛",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/库兹玛.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/库兹玛.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1101,7 +1101,7 @@
         {
             "id":4,
             "name":"戴维斯",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/戴维斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/戴维斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1111,7 +1111,7 @@
         {
             "id":5,
             "name":"考德威尔-波普",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考德威尔-波普.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/考德威尔-波普.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1121,7 +1121,7 @@
         {
             "id":6,
             "name":"考辛斯",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/考辛斯.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/考辛斯.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1131,7 +1131,7 @@
         {
             "id":7,
             "name":"霍华德",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/霍华德.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/霍华德.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,
@@ -1141,7 +1141,7 @@
         {
             "id":8,
             "name":"麦基",
-            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/活塞/麦基.png",
+            "img":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球员/湖人/麦基.png",
             "teamImg":"cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/球队/湖人.jpg",
             "team":"湖人队",
             "normal":true,

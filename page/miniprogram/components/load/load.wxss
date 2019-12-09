@@ -1,0 +1,36 @@
+.loadC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.loadC image{
+  width: 250rpx;
+  height: 300rpx;
+}
+@keyframes loadImg{
+  0%{
+    transform: rotate(0);
+  }
+  30%{
+    transform: rotate(90deg);
+  }
+  60%{
+    transform: rotate(-90deg);
+  }
+  80%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.loadImg{
+  animation: loadImg 2s linear infinite;
+}

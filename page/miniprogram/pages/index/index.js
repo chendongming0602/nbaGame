@@ -25,12 +25,11 @@ Page({
     if(index==2){
       wx.navigateTo({
         url: '/pages/picture/picture',
+      });
+    } else if (index == 1){
+      wx.navigateTo({
+        url: '/pages/pit/pit',
       })
-      // if (this.data.isPower){
-        
-      // }else{
-      //   this.setData({ loginShow:true})
-      // }
     }else{
       wx.navigateTo({
         url: '/pages/nba/nba',

@@ -45,7 +45,8 @@ App({
   toastS(text ="灌篮失败！请重新进入..."){
     wx.showToast({
       title: text,
-      duration:2000
+      duration:2000,
+      icon:"none"
     })
   },
   loadS(text="正在训练中..."){

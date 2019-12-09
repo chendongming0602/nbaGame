@@ -17,8 +17,12 @@
         <view class="item12">{{Member}}</view>
       </view>
     </view>
-    <view class="details">确定进入</view>
+    <view class="details" catchtap="affirm">确定进入</view>
   </view>
   <!-- 背景图 -->
   <image class="nbaBgImg" mode="aspectFill" src="{{baImg}}"></image>
+</view>
+
+<view hidden="{{isLoad}}">
+  <loadC ></loadC>
 </view>

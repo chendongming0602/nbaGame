@@ -71,6 +71,14 @@
 					"id": -1,
 					"name": "合个照片",
 					"pathName": "pages/picture/picture",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "坑",
+					"pathName": "pages/pit/pit",
+					"query": "",
 					"scene": null
 				}
 			]

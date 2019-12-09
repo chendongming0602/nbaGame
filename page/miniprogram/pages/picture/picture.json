@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "albumLogin":"/components/login/login"
+    "albumLogin":"/components/login/login",
+    "loadC": "/components/load/load"
   }
 }

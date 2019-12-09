@@ -17,6 +17,7 @@ Page({
     textHieght:0,//号码高度,
     value:"00",//号码
     albumShow:true,
+    isLoad:false,//加载图
   },
   imgEvent() {//图片转换
     let imgList = this.data.imgList;
@@ -89,6 +90,9 @@ Page({
     })
     wx.getSystemInfo({//兼容屏幕
       success: (res) => {
+        setTimeout(() => {
+          this.setData({ isLoad: true });
+        }, 2000);
         wx.hideLoading()
         this.width = res.windowWidth;//屏幕宽度
         this.height = res.windowHeight;//屏幕高度
@@ -106,6 +110,9 @@ Page({
           textHieght: this.countH,
         });
       },
+      fail:()=>{
+        APP.toastS();
+      }
     });
     // this.setData({
     //   [`imgList[1]`]: APP.userInfo.userInfo.avatarUrl

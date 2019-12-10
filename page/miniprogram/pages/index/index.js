@@ -5,7 +5,7 @@ Page({
   data: {
     list:[
       "进入NBA",
-      "坑一下 ！",
+      "玩一会 ！",
       "合个照 ！"
     ],
     isPower:false,//是否授权
@@ -23,9 +23,10 @@ Page({
   itemEvent(e){//列表按钮
     let { index } = e.currentTarget.dataset;
     if(index==2){
-      wx.navigateTo({
-        url: '/pages/picture/picture',
-      });
+      return APP.toastS("需要通关《玩一会》领取奖励可进入!")
+      // wx.navigateTo({
+      //   url: '/pages/picture/picture',
+      // });
     } else if (index == 1){
       wx.navigateTo({
         url: '/pages/pit/pit',
@@ -50,5 +51,11 @@ Page({
       }
     }
   },
+  onShareAppMessage: function () {
+    return {
+      title: '《我懂球了》欢迎您',
+      imageUrl:""
+    };
+  }
 
 })

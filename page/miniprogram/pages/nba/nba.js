@@ -125,9 +125,8 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: "蜜囍美文",
-      imageUrl: "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/text/new/top.png",
-      path: '/pages/index/index?id=10'
+      title: '《我懂球了》欢迎您',
+      imageUrl: ""
     };
   }
 })

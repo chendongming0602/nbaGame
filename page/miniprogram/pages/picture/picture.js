@@ -1,5 +1,6 @@
 // pages/picture/picture.js
-const APP=getApp()
+const APP=getApp();
+import isAlbum from '../../utils/isAlbum.js';
 Page({
 
   /**
@@ -18,6 +19,7 @@ Page({
     value:"00",//号码
     albumShow:true,
     isLoad:false,//加载图
+    counts:0,//
   },
   imgEvent() {//图片转换
     let imgList = this.data.imgList;
@@ -66,9 +68,13 @@ Page({
       success:(res)=> {
         // tempFilePath可以作为img标签的src属性显示图片
         const tempFilePaths = res.tempFilePaths[0];
-        this.setData({
-          [`imgList[1]`]: tempFilePaths
-        })
+        isAlbum.isAlbumGF(tempFilePaths).then(res=>{
+          this.setData({
+            [`imgList[1]`]: tempFilePaths
+          })
+        }).catch(err=>{
+          wx.hideLoading()
+        });
       }
     })
   },
@@ -120,6 +126,7 @@ Page({
   },
 
   baocun() {//保存图片
+    if (this.data.counts > 2) return APP.toastS("每进来一次最多保存3张哟！！");
     wx.showLoading({
       title: '保存中',
       mask:true
@@ -186,11 +193,15 @@ Page({
   album(url){//保存到相册
     wx.saveImageToPhotosAlbum({
       filePath: url,
-      success(res) {
+      success:(res)=> {
+        let counts=this.data.counts;
+        counts++;
+        this.setData({ counts})
         wx.showToast({
           title: '保存成功',
           duration: 2000,
         });
+        
       },
       fail() {
         wx.showToast({
@@ -247,6 +258,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: '《我懂球了》欢迎您',
+      imageUrl: ""
+    };
   }
 })

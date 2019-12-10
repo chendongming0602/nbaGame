@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "rock":"/components/game/rock/rock"
+  }
 }

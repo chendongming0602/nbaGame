@@ -1,14 +1,14 @@
 //app.js
+wx.cloud.init({
+  traceUser: true,
+  env: 'dongming-y95n7'
+})
 App({
   userInfo:{//用户资料
     isPower:false
   },
   isAPPLoad:false,
   onLaunch: function () {
-    wx.cloud.init({
-      traceUser: true,
-      env: 'dongming-y95n7'
-    })
     this.getUserPic().then(()=>{//授权
       this.isAPPLoad=true
       if (this.checkLoginReadyCallback) {
@@ -42,11 +42,12 @@ App({
     })
 
   },
-  toastS(text ="灌篮失败！请重新进入..."){
+  toastS(text ="灌篮失败！请重新进入...",mask=false){
     wx.showToast({
       title: text,
       duration:2000,
-      icon:"none"
+      icon:"none",
+      mask,
     })
   },
   loadS(text="正在训练中..."){

@@ -1,0 +1,219 @@
+.box{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+image{
+  display: block;
+}
+.boxImg{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+.top{
+  top: 50rpx;
+  transform: rotate(180deg);
+}
+.bto{
+  bottom: 50rpx;
+}
+.mys{
+  position: absolute;
+  bottom: 20rpx;
+  left: 50%;
+  transform: translate(-50%);
+  color: #333;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.bisi{
+  color: rgb(255, 81, 0);
+}
+.allImg{
+  position: absolute;
+  width: 250rpx;
+  height: 250rpx;
+  left: 50%;
+  margin-left: -125rpx; 
+}
+.dong{
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.dong image{
+  width: 100%;
+  height: 100%;
+}
+.dian{
+  width: 130rpx;
+  height: 130rpx;
+  background: rgb(235, 86, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes dianA{
+  0%{
+    opacity: 0.8;
+    transform: translate(-50%,-50%) scale(1)
+  }
+  50%{
+    opacity: 0.4;
+    transform: translate(-50%,-50%) scale(1.2)
+  }
+  100%{
+    opacity: 0.8;
+    transform: translate(-50%,-50%) scale(1)
+  }
+}
+.dianA{
+  animation: dianA 2s linear infinite;
+}
+
+.confirm,.guize{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  background: #000;
+}
+.confirmImg{
+  width: 680rpx;
+  height: 510rpx;
+  position: absolute;
+}
+@keyframes confirmImgA{
+  0%{
+    left: -100%;
+    top: 0;
+    transform:  scale(0.5) rotate(0deg);
+    opacity: 1;
+  }
+  15%{
+    left: 100%;
+    top: 0;
+    transform:  scale(0.5) rotate(0deg);
+    opacity: 1;
+  }
+  20%{
+    left: 100%;
+    top: 20%;
+    transform:  scale(0.5) rotate(180deg);
+    opacity: 1;
+  }
+  40%{
+    left: -100%;
+    top: 20%;
+    transform:  scale(0.5) rotate(180deg);
+    opacity: 1;
+  }
+  45%{
+    top: 50%;
+    left: -100%;
+    transform:  scale(0.5) rotate(0deg);
+    opacity: 1;
+  }
+  55%{
+    left: 100%;
+    top: 50%;
+    transform:  scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  60%{
+    top: 100%;
+    left: 50%;
+    margin-left: -340rpx;
+    transform:  scale(0.5) rotate(-90deg);
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+    top: 0;
+    left: 50%;
+    margin-left: -340rpx; 
+    transform:  scale(0.8) rotate(-90deg);
+  }
+  90%{
+    top: 20%;
+    left: 50%;
+    margin-left: -340rpx; 
+    transform:  scale(0.8) rotate(-90deg);
+    opacity: 0.5;
+  }
+  100%{
+    top: 20%;
+    left: 50%;
+    margin-left: -340rpx; 
+    transform:  scale(1.2) rotate(-90deg);
+    opacity: 1;
+  }
+}
+.confirmImgA{
+  animation: confirmImgA 8s linear;
+  animation-fill-mode: forwards;
+}
+
+.guize{
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 50rpx;
+  padding-top: 180rpx;
+}
+.guize view{
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 50rpx;
+}
+.guize .lie{
+  color: rgb(240, 52, 52);
+  font-size: 30rpx;
+}
+@keyframes guizeA{
+  0%{
+    option: 1;
+    transform: scale(1);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+.guizeA{
+  animation: guizeA 2s linear 5s;
+  animation-fill-mode: forwards;
+}
+.jiangli{
+  position: absolute;
+  width: 100%;
+  padding: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 50rpx;
+}
+.jiangli view{
+  width: 43%;
+  line-height: 80rpx;
+  background: #0f6cb4;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10rpx;
+
+}

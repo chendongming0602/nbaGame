@@ -1,0 +1,34 @@
+<view class="box">
+  <image class="boxImg" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/bg.jpg" ></image>
+
+  <image class="allImg top" src="{{top==1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg':top==2?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/布.jpg'}}"></image>
+
+  <view class="dong" catchtap="dong">
+    <image src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀石头布动图.gif"></image>
+    <view class="dian dianA"></view>
+  </view>
+  
+
+  <image class="allImg bto" src="{{bot==1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg':bot==2?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/布.jpg'}}"></image>
+  <view class="mys">我 <text class="bisi">({{isStart?'在休息':'比赛中!'}})</text></view>
+</view>
+
+<!-- 成功了 -->
+<view class="confirm" hidden="{{isGo}}">
+  <image class="confirmImg {{isGo?'':'confirmImgA'}}" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/huo.jpg"></image>
+
+  <view class="jiangli" wx:if="{{isBtn}}">
+    <view catchtap="jiangli" data-id="1">放弃奖励</view>
+    <view catchtap="jiangli" data-id="2">领取奖励</view>
+  </view>
+</view>
+
+<!-- 开屏 -->
+<view class="guize guizeA">
+  <view>1、游戏名：奇怪的剪刀石头布！</view>
+  <view>2、获胜方式</view>
+  <view class="lie"> 猜到和系统相同为胜！（是和系统相同！！！！！！！）</view>
+  <view>3、奖励！</view>
+  <view  class="lie"> 可以进入《合个照》页面进行合照保存！</view>
+  <view class="wu">5秒后进入</view>
+</view>

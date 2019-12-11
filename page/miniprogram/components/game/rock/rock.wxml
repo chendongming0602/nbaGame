@@ -3,9 +3,9 @@
 
   <image class="allImg top" src="{{top==1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg':top==2?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/布.jpg'}}"></image>
 
-  <view class="dong" catchtap="dong">
+  <view class="dong" catchtap="dong" wx:if="{{isStart}}">
     <image src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀石头布动图.gif"></image>
-    <view class="dian dianA"></view>
+    <view class="dian dianA">开始</view>
   </view>
   
 

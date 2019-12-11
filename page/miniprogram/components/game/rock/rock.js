@@ -1,5 +1,8 @@
 // components/game/rock/rock.js
+var music = wx.createInnerAudioContext();
 let att=function(){
+  music.src = "cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/开始.mp3";
+  music.title = "开始音乐"
   let shibai = Math.ceil(Math.random() * (5 - 3) + 3);
   let top = Math.floor(Math.random() * 3 + 1);
   let bot = Math.floor(Math.random() * 3 + 1);
@@ -49,8 +52,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    dong() {
+    dong(e) {
       if (!this.data.isStart) return APP.toastS("正在PK中，请勿重复点击！");
+      if (e!==1) { this.musicEvent(); } 
       this.setData({ isStart: false });
       let shu = Math.ceil(Math.random() *2);//失败了多少次给成功
       // console.log(shu)
@@ -81,7 +85,7 @@ Component({
               clearInterval(time1);
               clearInterval(time2);
               this.setData({ isStart: true })
-              this.dong();
+              this.dong(1);
             } else {
               //  APP.toastS("通过");
               clearInterval(time1);
@@ -142,7 +146,7 @@ Component({
           content: '确定放弃奖励吗？',
           success:(res)=>{
             if (res.confirm) {
-              wx.redirectTo({
+              wx.reLaunch({
                 url: '/pages/index/index',
               });
             } 
@@ -153,6 +157,10 @@ Component({
           url: '/pages/picture/picture',
         });
       }
+    },
+
+    musicEvent(){
+      music.play();
     },
   }
 })

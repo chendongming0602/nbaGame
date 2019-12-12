@@ -23,10 +23,10 @@ Page({
   itemEvent(e){//列表按钮
     let { index } = e.currentTarget.dataset;
     if(index==2){
-      return APP.toastS("需要通关《玩一会》领取奖励可进入!")
-      // wx.navigateTo({
-      //   url: '/pages/picture/picture',
-      // });
+      // return APP.toastS("需要通关《玩一会》领取奖励可进入!")
+      wx.navigateTo({
+        url: '/pages/picture/picture',
+      });
     } else if (index == 1){
       wx.navigateTo({
         url: '/pages/pit/pit',

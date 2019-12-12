@@ -1,21 +1,21 @@
 <view class="box">
   <image class="boxImg" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/bg.jpg" ></image>
 
-  <image class="allImg top" src="{{top==1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg':top==2?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/布.jpg'}}"></image>
+  <image class="allImg top" src="{{top==1?'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%89%AA%E5%88%80.jpg':top==2?'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E7%9F%B3%E5%A4%B4.jpg':'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%B8%83.jpg'}}"></image>
 
-  <view class="dong" catchtap="dong" wx:if="{{isStart}}">
-    <image src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀石头布动图.gif"></image>
+  <view class="dong" catchtap="dong" hidden="{{!isStart}}">
+    <image src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%89%AA%E5%88%80%E7%9F%B3%E5%A4%B4%E5%B8%83%E5%8A%A8%E5%9B%BE.gif"></image>
     <view class="dian dianA">开始</view>
   </view>
   
 
-  <image class="allImg bto" src="{{bot==1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/剪刀.jpg':bot==2?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/石头.jpg':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/布.jpg'}}"></image>
+  <image class="allImg bto" src="{{bot==1?'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%89%AA%E5%88%80.jpg':bot==2?'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E7%9F%B3%E5%A4%B4.jpg':'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%B8%83.jpg'}}"></image>
   <view class="mys">我 <text class="bisi">({{isStart?'在休息':'比赛中!'}})</text></view>
 </view>
 
 <!-- 成功了 -->
 <view class="confirm" hidden="{{isGo}}">
-  <image class="confirmImg {{isGo?'':'confirmImgA'}}" src="cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/huo.jpg"></image>
+  <image class="confirmImg {{isGo?'':'confirmImgA'}}" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/huo.jpg"></image>
 
   <view class="jiangli" wx:if="{{isBtn}}">
     <view catchtap="jiangli" data-id="1">放弃奖励</view>

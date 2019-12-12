@@ -1,7 +1,7 @@
 // components/game/rock/rock.js
 var music = wx.createInnerAudioContext();
 let att=function(){
-  music.src = "cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/开始.mp3";
+  music.src = "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%BC%80%E5%A7%8B.mp3";
   music.title = "开始音乐"
   let shibai = Math.ceil(Math.random() * (5 - 3) + 3);
   let top = Math.floor(Math.random() * 3 + 1);

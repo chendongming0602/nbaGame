@@ -1,6 +1,6 @@
 <view class="loginBox">
   <view class="boxes">
-    <image class="boxesImg" src="{{isAlbum===1?'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/系统设置.png':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/球场1.png'}}"></image>
+    <image class="boxesImg" src="{{isAlbum===1?'https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE.png':'cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/球场1.png'}}"></image>
     <view class="boxesBtn">
       <button open-type="{{isAlbum===1?'openSetting':'getUserInfo'}}" bindgetuserinfo="infoEvent" bindtap="openSetting">{{isAlbum===1?'进行相册授权':'和篮球授个权'}}</button>
     </view>

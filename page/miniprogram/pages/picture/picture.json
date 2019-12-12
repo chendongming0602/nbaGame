@@ -2,5 +2,6 @@
   "usingComponents": {
     "albumLogin":"/components/login/login",
     "loadC": "/components/load/load"
-  }
+  },
+  "disableScroll": true
 }

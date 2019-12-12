@@ -10,8 +10,8 @@ Page({
     top:0,
     left:0,
     imgList:[
-      "cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/canvas.jpg",
-      "cloud://dongming-y95n7.646f-dongming-y95n7-1259439013/其他/useri.jpg",
+      "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/canvas.jpg",
+      "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/useri.jpg",
     ],
     bunShow:true,//按钮显示隐藏
     textShow:true,//提示文字

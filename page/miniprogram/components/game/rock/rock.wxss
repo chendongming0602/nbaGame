@@ -52,6 +52,31 @@ image{
   width: 100%;
   height: 100%;
 }
+.selectImg{
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.selectImg image{
+  width: 200rpx;
+  height: 100px;
+  border: 2px solid #0f6cb4;
+  border-radius: 20rpx;
+}
+.selectImg .selectImgAc{
+  border: 3px solid #e61a0f;
+  border-radius: 10rpx;
+}
+.shoushou{
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #0f6cb4;
+  margin-top: 20rpx;
+}
 .dian{
   width: 150rpx;
   line-height: 150rpx;
@@ -85,7 +110,7 @@ image{
   animation: dianA 3s linear infinite;
 }
 
-.confirm,.guize{
+.guize{
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -93,81 +118,6 @@ image{
   top: 0;
   left: 0;
   background: #000;
-}
-.confirmImg{
-  width: 680rpx;
-  height: 510rpx;
-  position: absolute;
-}
-@keyframes confirmImgA{
-  0%{
-    left: -100%;
-    top: 0;
-    transform:  scale(0.5) rotate(0deg);
-    opacity: 1;
-  }
-  15%{
-    left: 100%;
-    top: 0;
-    transform:  scale(0.5) rotate(0deg);
-    opacity: 1;
-  }
-  20%{
-    left: 100%;
-    top: 20%;
-    transform:  scale(0.5) rotate(180deg);
-    opacity: 1;
-  }
-  40%{
-    left: -100%;
-    top: 20%;
-    transform:  scale(0.5) rotate(180deg);
-    opacity: 1;
-  }
-  45%{
-    top: 50%;
-    left: -100%;
-    transform:  scale(0.5) rotate(0deg);
-    opacity: 1;
-  }
-  55%{
-    left: 100%;
-    top: 50%;
-    transform:  scale(0.5) rotate(0deg);
-    opacity: 0;
-  }
-  60%{
-    top: 100%;
-    left: 50%;
-    margin-left: -340rpx;
-    transform:  scale(0.5) rotate(-90deg);
-    opacity: 0;
-  }
-  80%{
-    opacity: 1;
-    top: 0;
-    left: 50%;
-    margin-left: -340rpx; 
-    transform:  scale(0.8) rotate(-90deg);
-  }
-  90%{
-    top: 20%;
-    left: 50%;
-    margin-left: -340rpx; 
-    transform:  scale(0.8) rotate(-90deg);
-    opacity: 0.5;
-  }
-  100%{
-    top: 20%;
-    left: 50%;
-    margin-left: -340rpx; 
-    transform:  scale(1.2) rotate(-90deg);
-    opacity: 1;
-  }
-}
-.confirmImgA{
-  animation: confirmImgA 8s linear;
-  animation-fill-mode: forwards;
 }
 
 .guize{
@@ -192,32 +142,16 @@ image{
     option: 1;
     transform: scale(1);
   }
+  90%{
+    opacity: 0.6;
+    transform: scale(0.6);
+  }
   100%{
     opacity: 0;
     transform: scale(0);
   }
 }
 .guizeA{
-  animation: guizeA 2s linear 5s;
+  animation: guizeA 1.5s linear 5s;
   animation-fill-mode: forwards;
-}
-.jiangli{
-  position: absolute;
-  width: 100%;
-  padding: 50rpx;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  bottom: 50rpx;
-}
-.jiangli view{
-  width: 43%;
-  line-height: 80rpx;
-  background: #0f6cb4;
-  color: #fff;
-  font-size: 30rpx;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 10rpx;
-
 }

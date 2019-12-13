@@ -4,7 +4,8 @@
     "pages/nba/nba",
     "pages/details/details",
     "pages/picture/picture",
-    "pages/pit/pit"
+    "pages/pit/pit",
+    "pages/pits/pits"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -1,2 +1,13 @@
-<!-- 剪刀石头布 -->
-<rock></rock>
+
+<scrollBox list="{{alls}}">
+  <view class="alls" wx:for="{{alls}}" wx:key="{{index}}"  slot="name{{index}}">
+    <image class="imgs" src="{{item.bg}}"></image>
+    <view>
+      <view class="nameA name{{index}}">{{item.name}}</view>
+      <view class="but butA">
+        开始挑战
+      </view>
+    </view>
+    <image class="up upImgA" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/%E4%B8%8A%E8%A1%8C.png"></image>
+  </view>
+</scrollBox>

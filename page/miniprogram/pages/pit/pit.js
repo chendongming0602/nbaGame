@@ -6,7 +6,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    alls:[
+      {
+        name:"剪刀石头布",
+        bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/bg2.jpg"
+      },
+      {
+        name:"硬 币 专 家",
+        bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/bg.png"
+      },
+    ]
   },
 
   ggoo(){

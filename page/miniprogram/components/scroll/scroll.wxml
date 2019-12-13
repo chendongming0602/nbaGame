@@ -1,0 +1,5 @@
+<swiper class="swi" vertical="true" circular="true">
+  <swiper-item class="swiper-item"  wx:for="{{list}}" wx:key="{{index}}">
+   <slot name="name{{index}}"></slot>
+  </swiper-item>
+</swiper>

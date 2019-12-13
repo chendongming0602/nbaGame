@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "rock":"/components/game/rock/rock"
+    "scrollBox":"/components/scroll/scroll"
   }
 }

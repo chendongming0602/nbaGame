@@ -22,7 +22,7 @@ let att=function(){
     this.setData({
       aCss
     });
-  },2000);
+  },1500);
 
 }
 
@@ -43,11 +43,11 @@ Component({
    * 组件的初始数据
    */
   data: {
-    top: 1,//当前
-    bot: 2,//当前
-    shushu: 0,//控制相同的次数
-    tongs: 0,//控制不同的数次
-    shibai: 0,//失败了多少次给成功
+    // top: 1,//当前
+    // bot: 2,//当前
+    // shushu: 0,//控制相同的次数
+    // tongs: 0,//控制不同的数次
+    // shibai: 0,//失败了多少次给成功
     isStart: true,
     list:[
       "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E7%9F%B3%E5%A4%B4.jpg ",
@@ -68,68 +68,142 @@ Component({
       this.startE();
     },
     startE(){
+      if(!this.data.isStart) return
+      this.setData({ isStart:false});
+      music.play();
       let userActive = this.data.userActive;
       let system=0;
       let count=0;
-      if(userActive==0){//石头
+      let counts = Math.ceil(Math.random() * (8 - 4) + 4);//摇多少次
+      // console.log(counts)
+      if(userActive==0){//石头/////////////////////////////////////////////
       time1= setInterval(() => {
           system = Math.random();//系统
           count++;
-        // console.log(system)
-          // console.log(system)
-        if (system > 0.9) system=1;
+        if (system > 0.8) system=1;//控制几率
         else if (system > 0.4) system = 0;
         else system = 2;
-        console.log(system)
-        this.setData({ system})
-        //   if(count>5){
-            
-        //     if (system == 0) {//平局
-        //       console.log("平局")
-        //     } else if (system == 1) {//用户赢
-        //       console.log("用户赢")
-        //     } else {//系统赢
-        //       console.log("系统赢")
-        //     }
-        //     clearInterval(time1);
-        //   }
+        let systemT = system
+        if (system == this.data.system){//如果摇到相同的页面不会变（进行切换使页面有变动）
+          if (system<2){
+            systemT+=1
+          }else{
+            systemT-=1
+          };
+          this.setData({ system: systemT })
+        }else{
+          this.setData({ system})
+        }
+        
+        if (count > counts){//摇到几次停止
+            this.setData({ system })
+            if (system == 0) {//平局
+              this.finish(0);
+            } else if (system == 1) {//用户赢
+              this.finish(2);
+            } else {//系统赢
+              this.finish(1);
+            }
+            clearInterval(time1);
+          }
           
-        },500)
-      } else if (userActive==1){//剪刀
+        },300)
+      } else if (userActive==1){//剪刀//////////////////////////////
         time1 = setInterval(() => {
-          system = Math.floor(Math.random() * 3);//系统
-          if (system == 0) {//系统赢
-
-          } else if (system == 1) {//平局
-
-          } else {//用户赢
-
+          system = Math.random();//系统
+          count++;
+          if (system > 0.8) system = 2;//控制几率
+          else if (system > 0.4) system = 1;
+          else system = 0;
+          let systemT = system
+          if (system == this.data.system) {//如果摇到相同的页面不会变（进行切换使页面有变动）
+            if (system < 2) {
+              systemT += 1
+            } else {
+              systemT -= 1
+            };
+            this.setData({ system: systemT })
+          } else {
+            this.setData({ system })
           }
-        })
-      }else{//布
+
+          if (count > counts) {
+            this.setData({ system })
+            if (system == 0) {//系统赢
+              this.finish(1);
+            } else if (system == 1) {//平局
+              this.finish(0);
+            } else {//用户赢
+              this.finish(2);
+            }
+            clearInterval(time1);
+          }
+          
+        },310)
+      }else{//布/////////////////////////////////////////
         time1 =  setInterval(() => {
-           system = Math.floor(Math.random() * 3);//系统
-          if (system == 0) {//用户赢
-
-          } else if (system == 1) {//系统赢
-
-          } else {//平局
-
+          system = Math.random();//系统
+          count++;
+          if (system > 0.8) system = 0;//控制几率
+          else if (system > 0.4) system = 1;
+          else system = 2;
+          let systemT = system
+          if (system == this.data.system) {//如果摇到相同的页面不会变（进行切换使页面有变动）
+            if (system < 2) {
+              systemT += 1
+            } else {
+              systemT -= 1
+            };
+            this.setData({ system: systemT })
+          } else {
+            this.setData({ system })
           }
-        })
+          if (count > counts) {
+            this.setData({ system })
+            if (system == 0) {//用户赢
+              this.finish(2);
+            } else if (system == 1) {//系统赢
+              this.finish(1);
+            } else {//平局
+              this.finish(0);
+            }
+            clearInterval(time1);
+          }
+          
+        },320)
       }
      
     },
-    gg() {
-      wx.showToast({
-        title: '就知道你可以的！马上开启奖励通道~~~',
-        duration: 4000,
-        mask: true,
-        icon: "none"
-      });
-    },
-    musicEvent(){
-      music.play();
+    finish(e){//提示
+      this.setData({ isStart:true})
+      let arr0=[//平局
+        "哎呀！竟然平局了！",
+        "看来我们的修炼结果一样啊！",
+        "菜鸡互啄么！哈哈~",
+        "难不成你也是在NBA报的名？",
+        "咋们的教练都是同一个！很胖的那个~~"
+      ];
+      let arr1=[//系统赢
+        "你还要修炼五百年~~~",
+        "连我这关都过不了！还想进入NBA！！",
+        "放弃吧！我的报名费比你多太多了~~",
+        "就这样？也想竞争名人堂（哈哈哈）！",
+        "哎呀！系统都看不下去了...."
+      ];
+      let arr2=[//用户赢
+        "这...不可能！！！！",
+        "我整整修炼了五百年！为什么还是输给了你~~",
+        "恭喜你，成功成为CBA！（台词错了）是NBA球员！",
+        "没想到你挺过来了，快去领取你的奖励吧！",
+        "等我再修炼五百年，出来一定赢你！"
+      ]
+      let arrs = Math.floor(Math.random() *5)
+      if(e==0)
+        APP.toastS(arr0[arrs],true);
+      else if(e==1)
+        APP.toastS(arr1[arrs], true);
+      else
+        APP.toastS(arr2[arrs], true);
     },
   },
   lifetimes: {
@@ -146,82 +220,4 @@ Component({
   /**
    * 组件的方法列表
    */
-})
-
-
-
-
-
-
-// dong(e) {
-//   if (!this.data.isStart) return APP.toastS("正在PK中，请勿重复点击！");
-//   if (e !== 1) { this.musicEvent(); }
-//   this.setData({ isStart: false });
-//   let shu = Math.ceil(Math.random() * 2);//失败了多少次给成功
-//   // console.log(shu)
-//   let yaoshu = Math.ceil(Math.random() * (7 - 5) + 5);//摇动多少次
-//   let count = 0;//控制达到摇的次数
-//   let top1 = 1;//给全局top的结果
-//   time1 = setInterval(() => {
-//     let top = Math.floor(Math.random() * 3 + 1);
-//     top1 = top;
-//     this.setData({ top })
-//     if (count >= yaoshu) {//暂停
-//       clearInterval(time1)
-//     }
-//     count++
-//   }, 300);
-//   time2 = setInterval(() => {
-//     let top = Math.floor(Math.random() * 3 + 1);
-//     this.setData({ bot: top })
-//     // console.log(top, count, "Yui")
-//     if (count >= yaoshu) {//暂停
-//       clearInterval(time2);
-//       if (top1 == top) {//如果相同
-//         if (this.data.shushu <= shu) {//必须达到这个条件，否则继续摇
-//           let shushu = this.data.shushu;
-//           shushu++;
-//           this.setData({ shushu });
-//           count = 0;
-//           clearInterval(time1);
-//           clearInterval(time2);
-//           this.setData({ isStart: true })
-//           this.dong(1);
-//         } else {
-//           //  APP.toastS("通过");
-//           clearInterval(time1);
-//           clearInterval(time2);
-//           this.gg();//开启通过
-//         }
-//         // console.log("相同")
-//       } else {
-//         let tongs = this.data.tongs;
-//         tongs++;
-//         this.setData({ tongs });
-//         if (this.data.tongs >= this.data.shibai) {//错了太多，让他过吧
-//           clearInterval(time1);
-//           clearInterval(time2);
-//           this.setData({
-//             shushu: 10,
-//             top: top,
-//             bot: top,
-//           });
-//           // console.log("改为相同了",this.data.top,this.data.bot)
-//           // APP.toastS("通过");
-//           this.gg();//开启通过
-//         } else {
-//           wx.showToast({
-//             title: '你失败了！使出你的实力吧~',
-//             duration: 1000,
-//             mask: true,
-//             icon: "none"
-//           });
-//           this.setData({ isStart: true });
-//           clearInterval(time1);
-//           clearInterval(time2);
-//         }
-
-//       }
-//     }
-//   }, 300);
-// },
+});

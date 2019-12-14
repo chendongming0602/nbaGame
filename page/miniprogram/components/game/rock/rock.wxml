@@ -3,13 +3,16 @@
 
   <image class="allImg top" src="{{list[system]}}"></image>
 
-  <view class="dong" hidden="{{!isStart}}">
-    <view class="selectImg">
-      <image  class="{{index==aCss?'selectImgAc':''}}" wx:for="{{list}}" wx:key="{{index}}" src="{{item}}" catchtap="selectE" data-index="{{index}}"></image>
+  <view class="dong">
+    <!-- 点击比赛 -->
+    <view hidden="{{!isStart}}">
+      <view class="selectImg" >
+        <image  class="{{index==aCss?'selectImgAc':''}}" wx:for="{{list}}" wx:key="{{index}}" src="{{item}}" catchtap="selectE" data-index="{{index}}"></image>
+      </view>
+      <view class="shoushou">请选择你的小手手！</view>
     </view>
-    <view class="shoushou">请选择你的小手手！</view>
-    <!-- <image src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%89%AA%E5%88%80%E7%9F%B3%E5%A4%B4%E5%B8%83%E5%8A%A8%E5%9B%BE.gif"></image>
-    <view class="dian dianA">开始</view> -->
+     <!-- 比赛中 -->
+    <image hidden="{{isStart}}" class="zhong" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E6%AF%94%E8%B5%9B%E4%B8%AD.png"></image>
   </view>
   
 

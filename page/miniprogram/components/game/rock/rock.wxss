@@ -155,3 +155,7 @@ image{
   animation: guizeA 1.5s linear 5s;
   animation-fill-mode: forwards;
 }
+.zhong{
+  width: 100%;
+  height: 100%;
+}

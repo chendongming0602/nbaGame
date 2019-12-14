@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "rock": "/components/game/rock/rock"
+    "rock": "/components/game/rock/rock",
+    "coin": "/components/game/coin/coin"
   }
 }

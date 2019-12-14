@@ -1,0 +1,360 @@
+.coinBg{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(1,1,1,0.5)
+}
+.rotate-wrap {
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  position: absolute;
+  left: 50%;
+  margin-left: -100rpx;
+  bottom: 0;
+  transform: rotateX(60deg);
+}
+.rotate-wrap .front, .rotate-wrap .reverse{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  
+}
+.rotate-wrap .circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.circle{
+  border-radius: 50%;
+  overflow: hidden;
+}
+.line{
+  height: 200px;
+  width: 1px;
+  position:absolute;
+  top: 0;
+  left: 50%;
+  background: red;
+  transform: translateZ(0px);
+}
+
+@keyframes pao0 {
+  0%{
+  transform: rotateX(0deg) rotateY(180deg);
+  bottom: 0;
+  }
+  10%{
+  transform: rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg) ;
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg);
+  }
+  50%{
+  transform: rotateY(360deg) rotateX(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(-80deg) ;
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(-180deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg) ;
+  }
+  90%{
+  transform: rotateX(60deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(60deg);
+  }
+}
+/* 用户赢 */
+.pao0{
+  animation: pao0 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pao1 {
+  0%{
+  transform: rotateX(0deg) ;
+  bottom: 0;
+  }
+  10%{
+  transform: rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg) ;
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg) ;
+  }
+  50%{
+  transform: rotateY(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(0deg) ;
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(0deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg) ;
+  }
+  90%{
+  transform: rotateX(60deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(60deg);
+  }
+}
+/* 用户赢 */
+.pao1{
+  animation: pao1 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pao2 {
+  0%{
+  transform: rotateX(0deg) ;
+  bottom: 0;
+  }
+  10%{
+  transform: rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg) ;
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg) ;
+  }
+  50%{
+  transform: rotateY(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(0deg) ;
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(0deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg) ;
+  }
+  90%{
+  transform: rotateX(-120deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(-120deg);
+  }
+}
+/* 系统赢 */
+.pao2{
+  animation: pao2 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pao3 {
+  0%{
+  transform: rotateX(0deg) ;
+  bottom: 0;
+  }
+  10%{
+  transform: rotateX(180deg) rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg);
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg) ;
+  }
+  50%{
+  transform: rotateY(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(0deg) rotateY(30deg);
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(0deg) rotateY(360deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg);
+  }
+  90%{
+  transform: rotateX(-120deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(-120deg);
+  }
+}
+/* 系统赢 */
+.pao3{
+  animation: pao3 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pao4 {
+  0%{
+  transform: rotateX(0deg) ;
+  bottom: 0;
+  }
+  10%{
+  transform: rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg) ;
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg) ;
+  }
+  50%{
+  transform: rotateY(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(0deg) ;
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(0deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg) ;
+  }
+  90%{
+  transform: rotateX(60deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(-120deg);
+  }
+}
+/* 系统赢 */
+.pao4{
+  animation: pao4 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pao5 {
+  0%{
+  transform: rotateX(0deg) ;
+  bottom: 0;
+  }
+  10%{
+  transform: rotateY(360deg) ;
+  }
+  20%{
+  transform: rotateY(0deg) ;
+  }
+  30%{
+  transform: rotateY(360deg) ;
+  }
+  40%{
+  transform: rotateY(0deg) ;
+  }
+  50%{
+  transform: rotateY(360deg);
+  bottom: 800rpx;
+  }
+  52%{
+  transform: rotateX(0deg) ;
+  bottom: 800rpx;
+  }
+  55%{
+  transform: rotateX(180deg);
+  bottom: 800rpx;
+  }
+  60%{
+  transform: rotateX(0deg);
+  bottom: 750rpx;
+  }
+  80%{
+  transform: rotateX(-360deg) ;
+  }
+  90%{
+  transform: rotateX(-120deg) ;
+  bottom: 0rpx;
+  }
+  100% {
+  transform: rotateX(60deg);
+  }
+}
+/* 用户赢 */
+.pao5{
+  animation: pao5 3s linear;
+  animation-fill-mode: forwards;
+}
+.pao{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40rpx;
+  right: 50rpx;
+}
+@keyframes paoBut{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.paoBut{
+  animation: paoBut 5s infinite;
+}

@@ -6,7 +6,7 @@
       <open-data type="userAvatarUrl"></open-data>
     </view>
   <!-- <image  src="http://minis-resources-1252149780.cosgz.myqcloud.com/lovers_magpie%20/logo.jpg"></image> -->
-  <image class="reverse circle" wx:key="{{index}}" wx:for="{{5}}" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/coin.png" style="transform: translateZ({{-index}}px)"></image>
+  <image class="reverse circle" wx:key="{{index}}" wx:for="{{8}}" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/coin.png" style="transform: translateZ({{-index}}px)"></image>
   </view>
 
   <image hidden="{{isPao}}" catchtap="pao" class="pao paoBut" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/pao.png"></image>

@@ -36,13 +36,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50rpx;
+  padding: 0 60rpx;
 }
 .btn view{
   line-height: 70rpx;
   background: rgb(21, 130, 150);
   color: #fff;
   width: 40%;
+  min-width: 180rpx;
   text-align: center;
   font-size: 30rpx;
   border-radius: 10rpx;

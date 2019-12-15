@@ -20,6 +20,8 @@ function isText(text) {
         } else {
           resolve(false)
         }
+      }).catch(err=>{
+        console.log(err)
       })
     })
   }
@@ -42,11 +44,11 @@ function isAlbumGF(url) {//进行检验
   
   //return Promise.resolve(true);//关闭图片审核
   wx.showLoading({
-    title: '图片审核...',
+    title: '图片审核中...',
     mask: true
-  })
+  });
   return funA(url).then(res => {
-    
+    // console.log(url)
     return new Promise((resolve, reject) => {
       wx.cloud.callFunction({
         name: "isAlbum",
@@ -54,7 +56,7 @@ function isAlbumGF(url) {//进行检验
           url: res.data
         }
       }).then(res => {
-        console.log(res)
+        // console.log(res)
         wx.hideLoading();
         if (res.result.errCode != 87014) {
           resolve(true)
@@ -62,6 +64,8 @@ function isAlbumGF(url) {//进行检验
           APP.toastS("此照片存在违规可能，请更换照片！")
           reject(res)
         }
+      }).catch(err=>{
+        APP.toastS("照片尺寸过大~请更换照片！")
       })
     })
   })

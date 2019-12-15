@@ -10,7 +10,7 @@ Page({
     top:0,
     left:0,
     imgList:[
-      "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/canvas.jpg",
+      "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/canvas/1.jpg",
       "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/useri.jpg",
     ],
     bunShow:true,//按钮显示隐藏
@@ -66,15 +66,37 @@ Page({
       sizeType: ['original', 'compressed'],
       sourceType: ['album', 'camera'],
       success:(res)=> {
-        // tempFilePath可以作为img标签的src属性显示图片
         const tempFilePaths = res.tempFilePaths[0];
-        isAlbum.isAlbumGF(tempFilePaths).then(res=>{
-          this.setData({
-            [`imgList[1]`]: tempFilePaths
+        if (res.tempFiles[0].size>200000){
+          wx.showModal({
+            title: '温馨提示~',
+            content: '你的选泽的图片尺寸较大，建议更换！',
+            cancelText:"继续上传",
+            confirmText:"更换照片",
+            success:(res)=>{
+              if (res.confirm) {
+                return this.picEvent();
+              } else{
+                isAlbum.isAlbumGF(tempFilePaths).then(res => {
+                  this.setData({
+                    [`imgList[1]`]: tempFilePaths
+                  })
+                }).catch(err => {
+                  wx.hideLoading()
+                });
+              }
+            }
           })
-        }).catch(err=>{
-          wx.hideLoading()
-        });
+        }else{
+          isAlbum.isAlbumGF(tempFilePaths).then(res => {
+            this.setData({
+              [`imgList[1]`]: tempFilePaths
+            })
+          }).catch(err => {
+            wx.hideLoading()
+          });
+        }
+        
       }
     })
   },

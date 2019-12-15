@@ -129,7 +129,7 @@ Page({
         //绘画头像的Y开始默认位置
         this.canH = this.height * 0.1498;
         //绘制编号的高度
-        this.countH=this.height*0.48;
+        this.countH=this.height*0.7;
         //绘制的编号
         this.countText=this.data.value;
         this.setData({
@@ -158,7 +158,7 @@ Page({
       console.log(res)
       const ctx = wx.createCanvasContext("can");
       ctx.drawImage(res[0], 0, 0, this.width, this.height);//背景图
-      ctx.setFontSize(16) //字体大小
+      ctx.setFontSize(20) //字体大小
       // const grd = ctx.createLinearGradient(0, 0, 10, 10)
       // grd.addColorStop(0, '#000');
       // grd.addColorStop(1, '#f00');

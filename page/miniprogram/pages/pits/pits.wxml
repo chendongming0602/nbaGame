@@ -1,5 +1,16 @@
 <!-- 剪刀石头布 -->
 <!-- <rock></rock> -->
 <!-- 硬币 -->
-<coin></coin>
+<!-- <coin></coin> -->
 <!-- 成功了 -->
+<view class="jiangli">
+  <view class="title">选泽你的‘球衣’奖励</view>
+  <view class="qiuyiBox">
+    <image wx:for="{{30}}" wx:key="{{index}}" class="imgs {{index==1?'imgsBor':''}}" src="../../img/19.jpg"></image>
+  </view>
+
+  <view class="but">
+    <view>放弃领取</view>
+    <view>确定领取</view>
+  </view>
+</view>

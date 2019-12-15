@@ -1,0 +1,40 @@
+.jiangli{
+  padding: 30rpx;
+  text-align: center;
+}
+.title{
+  color: #0f6cb4;
+  font-size: 45rpx;
+  font-weight: bold;
+  padding:20rpx 0;
+}
+.qiuyiBox{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imgs{
+  width: 20%;
+  height: 170rpx;
+  min-width: 20%;
+  margin-top: 20rpx;
+}
+.imgsBor{
+  border: 2px solid #f0f;
+}
+.but{
+  width: 100%;
+  padding: 50rpx 0rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.but view{
+  text-align: center;
+  line-height: 80rpx;
+  min-width: 300rpx;
+  border-radius: 10rpx;
+  background: #f0f;
+  color: #fff;
+}

@@ -202,8 +202,16 @@ Component({
         APP.toastS(arr0[arrs],true);
       else if(e==1)
         APP.toastS(arr1[arrs], true);
-      else
+      else{
         APP.toastS(arr2[arrs], true);
+        setTimeout(()=>{
+          this.confirm()
+        },2000)
+      }
+        
+    },
+    confirm(){
+      this.triggerEvent('confirm', {});
     },
   },
   lifetimes: {

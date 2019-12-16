@@ -10,18 +10,19 @@
 }
 .qiuyiBox{
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 .imgs{
-  width: 20%;
-  height: 170rpx;
+  width: 30%;
+  height: 280rpx;
   min-width: 20%;
   margin-top: 20rpx;
+  border-radius: 5rpx;
 }
 .imgsBor{
-  border: 2px solid #f0f;
+  border: 3px solid #369eff;
 }
 .but{
   width: 100%;
@@ -35,6 +36,9 @@
   line-height: 80rpx;
   min-width: 300rpx;
   border-radius: 10rpx;
-  background: #f0f;
+  background: #369eff;
   color: #fff;
+}
+.but .fq{
+  background: #999;
 }

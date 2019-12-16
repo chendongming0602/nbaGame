@@ -23,11 +23,11 @@
 </view>
 
 <!-- 开屏 -->
-<!-- <view class="guize guizeA">
-  <view>1、游戏名：奇怪的剪刀石头布！</view>
-  <view>2、获胜方式</view>
-  <view class="lie"> 猜到和系统相同为胜！（是和系统相同！！！！！！！）</view>
+<view class="guize guizeA">
+  <view class="title">剪刀高手！</view>
+  <view>2、说明</view>
+  <view class="lie"> 回忆童年~~~是时候展现你的手速了！！！ </view>
   <view>3、奖励！</view>
-  <view  class="lie"> 可以进入《合个照》页面进行合照保存！</view>
+  <view  class="lie">30种‘球衣’背景可选择！</view>
   <view class="wu">5秒后进入</view>
-</view> -->
+</view>

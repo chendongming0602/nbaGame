@@ -1,13 +1,24 @@
 // pages/pits/pits.js
+import imgs from '../../utils/imgs.js';
+let {select}=imgs
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    select,
+    indexs:0,
+    isShow:false,
+    count:1
   },
-
+  confirm(){
+    this.setData({isShow:true,count:null});
+  },
+  imgE(e){
+    let {index}=e.currentTarget.dataset
+    this.setData({indexs:index});
+  },
   /**
    * 生命周期函数--监听页面加载
    */

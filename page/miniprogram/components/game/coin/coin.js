@@ -62,8 +62,14 @@ Component({
       if(e==1){
         APP.toastS(arr1[arrs])
       }else{
-        APP.toastS(arr2[arrs])
+        APP.toastS(arr2[arrs],true);
+        setTimeout(()=>{
+          this.triggerEvent('confirm', {});
+        },2000)
       }
+    },
+    confirm(){
+
     },
   }
 })

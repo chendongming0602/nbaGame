@@ -68,10 +68,10 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 3,
 					"name": "合个照片",
 					"pathName": "pages/picture/picture",
-					"query": "",
+					"query": "id=1",
 					"scene": null
 				},
 				{

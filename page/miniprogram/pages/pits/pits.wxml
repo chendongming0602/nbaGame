@@ -8,10 +8,10 @@
 <view class="jiangli" >
   <view class="title">选泽你的‘球衣’奖励</view>
   <view class="qiuyiBox">
-    <image wx:for="{{select}}" wx:key="{{index}}" catchtap="imgE" data-index="{{index}}" class="imgs {{index===indexs?'imgsBor':''}}" src="{{item}}"></image>
+    <image wx:for="{{select}}" wx:key="{{item.id}}" catchtap="imgE" data-index="{{index}}" class="imgs {{index===indexs?'imgsBor':''}}" src="{{item.img}}"></image>
   </view>
 </view>
 <view class="but">
-  <view class="fq">放弃领取</view>
-  <view>确定领取</view>
+  <view class="fq" catchtap="fqE">放弃领取</view>
+  <view catchtap="querenE">确定领取</view>
 </view>

@@ -7,17 +7,41 @@ Page({
    * 页面的初始数据
    */
   data: {
-    select,
-    indexs:0,
+    select,//球衣数据
+    indexs:select[0].id-1,//球衣的id
     isShow:false,
-    count:null
+    count:null,
   },
-  confirm(){
+  confirm(){//触发奖励
     this.setData({isShow:true,count:null});
   },
-  imgE(e){
+  imgE(e){//选泽
     let {index}=e.currentTarget.dataset
     this.setData({indexs:index});
+  },
+  querenE(){//确认领取奖励
+    wx.redirectTo({
+      url: '/pages/picture/picture?id='+this.data.indexs,
+    });
+  },
+  fqE(){//取消
+    wx.showModal({
+      title: '温馨提示',
+      content: '确定放弃奖励吗？',
+      showCancel: true,
+      cancelText: '取消放弃',
+      cancelColor: '#369eff',
+      confirmText: '确认放弃',
+      confirmColor: '#999999',
+      success: function(res) {
+        if (res.confirm) {
+          wx.redirectTo({
+            url: '/pages/index/index',
+          });
+        } 
+      },
+     
+    })
   },
   /**
    * 生命周期函数--监听页面加载

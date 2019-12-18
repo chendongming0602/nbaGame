@@ -1,6 +1,8 @@
 // pages/picture/picture.js
 const APP=getApp();
 import isAlbum from '../../utils/isAlbum.js';
+import imgs from '../../utils/imgs.js';
+let {bgs}=imgs;
 Page({
 
   /**
@@ -10,7 +12,7 @@ Page({
     top:0,
     left:0,
     imgList:[
-      "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/canvas/1.jpg",
+      "",
       "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/useri.jpg",
     ],
     bunShow:true,//按钮显示隐藏
@@ -112,6 +114,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let {id}=options;
+    this.setData({
+      [`imgList[0]`]:bgs[id].img
+    });
     wx.showLoading({
       title: '加载中...',
       mask:true
@@ -129,7 +135,7 @@ Page({
         //绘画头像的Y开始默认位置
         this.canH = this.height * 0.1498;
         //绘制编号的高度
-        this.countH=this.height*0.7;
+        this.countH=this.height*0.8;
         //绘制的编号
         this.countText=this.data.value;
         this.setData({

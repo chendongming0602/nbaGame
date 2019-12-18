@@ -1,6 +1,7 @@
 .jiangli{
-  padding: 30rpx;
+  padding: 30rpx 30rpx 160rpx;
   text-align: center;
+  background: linear-gradient(to bottom, #1f1c2c, #928dab);
 }
 .title{
   color: #0f6cb4;
@@ -26,18 +27,22 @@
 }
 .but{
   width: 100%;
-  padding: 50rpx 0rpx 30rpx;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  bottom: 50rpx;
+  padding: 0 30rpx;
 }
 .but view{
   text-align: center;
   line-height: 80rpx;
-  min-width: 300rpx;
+  min-width: 320rpx;
   border-radius: 10rpx;
-  background: #369eff;
+  /* background: #369eff; */
+  background: linear-gradient(to bottom, #369eff, #54acff);
   color: #fff;
+  font-size: 30rpx;
 }
 .but .fq{
   background: #999;

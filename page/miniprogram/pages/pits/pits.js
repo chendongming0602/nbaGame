@@ -10,7 +10,7 @@ Page({
     select,
     indexs:0,
     isShow:false,
-    count:1
+    count:null
   },
   confirm(){
     this.setData({isShow:true,count:null});

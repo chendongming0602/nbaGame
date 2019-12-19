@@ -8,9 +8,9 @@ Page({
    */
   data: {
     select,//球衣数据
-    indexs:select[0].id-1,//球衣的id
+    indexs:select[0].id,//球衣的id
     isShow:false,
-    count:null,
+    count:2,
   },
   confirm(){//触发奖励
     this.setData({isShow:true,count:null});
@@ -35,9 +35,9 @@ Page({
       confirmColor: '#999999',
       success: function(res) {
         if (res.confirm) {
-          wx.redirectTo({
-            url: '/pages/index/index',
-          });
+          wx.navigateBack({
+            delta: 1
+          })
         } 
       },
      
@@ -47,7 +47,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let {id}=options;
+    this.setData({
+      count:id
+    })
   },
 
   /**

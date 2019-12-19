@@ -9,8 +9,28 @@
   <!-- 按钮 -->
   <view class="btn" wx:if="{{bunShow}}">
     <view class="btn1" catchtap="picEvent">更换头像</view>
-    <input maxlength="2" bindinput="inputEvent" type="number"  placeholder="输入球衣号码" class="input"></input>
-    <view catchtap="baocun">保存成图片</view>
+    <input maxlength="2" bindinput="inputEvent" type="number" placeholder-style="color:rgb(196, 196, 196)"  placeholder="输入球衣号码" class="input"></input>
+    <view catchtap="baocunE1">保存成图片</view>
+  </view>
+  <view class="gui" wx:if="{{bunShow}}" catchtap="guiE">
+    <image class="guiImg" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/canvas/gui.jpg"></image>
+    <view class="guiText">衣柜</view>
+  </view>
+  <!-- 预览衣柜 -->
+  <view class="yulan" hidden="{{!yulanFrom}}">
+    <view style="width:100%;">
+      <swiper class="swiper" autoplay="true" interval="1500">
+        <block wx:for="{{select}}" wx:key="{{item.id}}" >
+          <swiper-item>
+            <view class="swiperView">
+              <image class="swiperImg" src="{{item.img}}"></image>
+              <view class="yulanText" catchtap="selectE" data-id="{{item.id}}">预 览</view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="quxiaoC" catchtap="quxiaoE">取消</view>
+    </view>
   </view>
 </view>
 <view hidden="{{albumShow}}">

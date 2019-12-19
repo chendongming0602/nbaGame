@@ -5,8 +5,8 @@ Page({
   data: {
     list:[
       "进入NBA",
-      "玩一会 ！",
-      "合个照 ！"
+      "领取奖励 ！",
+      "穿上“球衣”"
     ],
     isPower:false,//是否授权
     loginShow:false,//显示授权弹窗

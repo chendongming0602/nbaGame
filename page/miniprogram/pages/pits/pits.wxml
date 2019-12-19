@@ -1,17 +1,19 @@
 <!-- 剪刀石头布 -->
-<rock wx:if="{{count===0}}" bind:confirm="confirm"></rock>
+<rock wx:if="{{count==1}}" bind:confirm="confirm"></rock>
 <!-- 硬币 -->
-<coin  wx:if="{{count===1}}" bind:confirm="confirm"></coin>
+<coin  wx:if="{{count==2}}" bind:confirm="confirm"></coin>
 
 
 <!-- 成功了 -->
-<view class="jiangli" >
-  <view class="title">选泽你的‘球衣’奖励</view>
-  <view class="qiuyiBox">
-    <image wx:for="{{select}}" wx:key="{{item.id}}" catchtap="imgE" data-index="{{index}}" class="imgs {{index===indexs?'imgsBor':''}}" src="{{item.img}}"></image>
+<view hidden="{{!isShow}}">
+  <view class="jiangli" >
+    <view class="title">选泽你的‘球衣’奖励</view>
+    <view class="qiuyiBox">
+      <image wx:for="{{select}}" wx:key="{{item.id}}" catchtap="imgE" data-index="{{item.id}}" class="imgs {{item.id===indexs?'imgsBor':''}}" src="{{item.img}}"></image>
+    </view>
   </view>
-</view>
-<view class="but">
-  <view class="fq" catchtap="fqE">放弃领取</view>
-  <view catchtap="querenE">确定领取</view>
+  <view class="but">
+    <view class="fq" catchtap="fqE">放弃领取</view>
+    <view catchtap="querenE">确定领取</view>
+  </view>
 </view>

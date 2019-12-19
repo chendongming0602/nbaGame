@@ -2,7 +2,7 @@
 const APP=getApp();
 import isAlbum from '../../utils/isAlbum.js';
 import imgs from '../../utils/imgs.js';
-let {bgs}=imgs;
+let {bgs,select}=imgs;
 Page({
 
   /**
@@ -12,16 +12,17 @@ Page({
     top:0,
     left:0,
     imgList:[
-      "",
+      bgs[0].img,
       "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/useri.jpg",
     ],
     bunShow:true,//按钮显示隐藏
     textShow:true,//提示文字
     textHieght:0,//号码高度,
-    value:"00",//号码
+    value:"",//号码
     albumShow:true,
     isLoad:false,//加载图
-    counts:0,//
+    select,//预览数据,
+    yulanFrom:false,//预览框
   },
   imgEvent() {//图片转换
     let imgList = this.data.imgList;
@@ -110,14 +111,91 @@ Page({
   albumEvent(){
     this.setData({albumShow:true})
   },
+  showModalE(){//提示用户
+    wx.showModal({
+      title: '温馨提示',
+      content: '你未有可消耗的奖励！只能使用浏览模式！',
+      cancelText:"浏览模式",
+      confirmText:"奖励通道",
+      success:(res)=> {
+        if (res.confirm) {
+          let pages = getCurrentPages();
+          let length = pages.length-1;
+          // console.log(length)
+          pages.map((t,i)=>{//如果打开过那个页面，进行回退
+            if (t.route =="pages/pit/pit"){
+              wx.navigateBack({
+                delta: length-i
+              });
+              this._pages=1
+            }
+          });
+          if (!this._pages){//否则关闭直接打开该页面
+            wx.redirectTo({
+              url: '/pages/pit/pit',
+            })
+          }
+        } 
+      }
+    });
+  },
+  guiE(){//打开衣柜
+    this.setData({ yulanFrom:true})
+  },
+  quxiaoE(){//关闭衣柜
+    this.setData({ yulanFrom: false })
+  },
+  selectE(e){
+    let {id}=e.currentTarget.dataset;
+    bgs.map(t => {
+      if (t.id == id) {
+        this.setData({
+          [`imgList[0]`]: t.img
+        });
+      };
+    });
+    this.quxiaoE();
+  },
+  baocunE1(){//保存按钮1
+    if(!!!this._imgs){
+      this.showModalE();
+    }else{
+      if (this.data.imgList[0] !== this._imgs){
+        wx.showLoading({
+          title: '恢复奖励！',
+          mask:true
+        });
+        this.setData({
+          [`imgList[0]`]: this._imgs
+        });
+        setTimeout(()=>{
+          this.baocun();
+        },1000)
+      }else{
+        console.log("直接保存")
+         this.baocun();
+      }
+   
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     let {id}=options;
-    this.setData({
-      [`imgList[0]`]:bgs[id].img
-    });
+    if(id){//奖励
+      bgs.map(t=>{
+        if(t.id==id){
+          this.setData({
+            [`imgList[0]`]:t.img
+          });
+          this._imgs = t.img;
+        };
+      });
+    }else{//无奖励
+      this.showModalE();
+    }
+  
     wx.showLoading({
       title: '加载中...',
       mask:true
@@ -154,7 +232,6 @@ Page({
   },
 
   baocun() {//保存图片
-    if (this.data.counts > 2) return APP.toastS("每进来一次最多保存3张哟！！");
     wx.showLoading({
       title: '保存中',
       mask:true
@@ -168,7 +245,7 @@ Page({
       // const grd = ctx.createLinearGradient(0, 0, 10, 10)
       // grd.addColorStop(0, '#000');
       // grd.addColorStop(1, '#f00');
-      ctx.setFillStyle("#2390e4") //字体颜色
+      ctx.setFillStyle("#54acff") //字体颜色
       //ctx.textAlign = "center"; //文字居中
       ctx.font = 'bold 60px sans-serif';
       //绘制文字居中（屏幕宽度-文字宽度，最后/2）
@@ -222,14 +299,11 @@ Page({
     wx.saveImageToPhotosAlbum({
       filePath: url,
       success:(res)=> {
-        let counts=this.data.counts;
-        counts++;
-        this.setData({ counts})
         wx.showToast({
           title: '保存成功',
           duration: 2000,
         });
-        
+        this._imgs="";//只保存一次
       },
       fail() {
         wx.showToast({

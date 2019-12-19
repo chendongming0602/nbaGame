@@ -33,7 +33,7 @@ Component({
       let index=Math.random();
       if(index>0.9) index=0;
       else if(index>0.85) index=1;
-      else if(index>0.75) index=5;
+      else if(index>0.8) index=5;
       else if(index>0.6) index=2;
       else if(index>0.3) index=3;
       else index=4;

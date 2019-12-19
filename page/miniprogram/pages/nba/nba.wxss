@@ -47,7 +47,7 @@
   margin-left: 15rpx;
 }
 .item11{
-  background: #0f6cb4;
+  background: linear-gradient(to bottom, #369eff, #54acff);
   color: #fff;
   font-size: 30rpx;
   
@@ -62,7 +62,7 @@
 }
 
 .details{
-  background:#0f6cb4;
+  background: linear-gradient(to bottom, #369eff, #54acff);
   line-height: 85rpx;
   font-size: 30rpx;
   width: 100%;

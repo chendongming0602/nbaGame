@@ -24,10 +24,10 @@
 
 <!-- 开屏 -->
 <view class="guize guizeA">
-  <view class="title">剪刀高手！</view>
-  <view>2、说明</view>
-  <view class="lie"> 回忆童年~~~是时候展现你的手速了！！！ </view>
-  <view>3、奖励！</view>
-  <view  class="lie">30种‘球衣’背景可选择！</view>
+  <view class="title">猜 拳 高 手</view>
+  <view>1、说明</view>
+  <view class="lie"> 谁赢谁开球！！！谁输谁转发！！！ </view>
+  <view>2、奖励！</view>
+  <view  class="lie">30种‘球衣’背景任选一种！</view>
   <view class="wu">5秒后进入</view>
 </view>

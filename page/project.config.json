@@ -71,7 +71,7 @@
 					"id": 3,
 					"name": "合个照片",
 					"pathName": "pages/picture/picture",
-					"query": "id=1",
+					"query": "",
 					"scene": null
 				},
 				{

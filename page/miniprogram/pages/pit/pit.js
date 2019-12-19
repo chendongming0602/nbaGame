@@ -8,10 +8,12 @@ Page({
   data: {
     alls:[
       {
-        name:"剪刀石头布",
+        id:1,
+        name:"猜 拳 高 手",
         bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/bg2.jpg"
       },
       {
+        id:2,
         name:"硬 币 专 家",
         bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/bg.png"
       },

@@ -4,9 +4,9 @@
     <image class="imgs" src="{{item.bg}}"></image>
     <view>
       <view class="nameA name{{index}}">{{item.name}}</view>
-      <view class="but butA">
+      <navigator class="but butA" url="/pages/pits/pits?id={{item.id}}" hover-class="none">
         开始挑战
-      </view>
+      </navigator>
     </view>
     <image class="up upImgA" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/%E4%B8%8A%E8%A1%8C.png"></image>
   </view>

@@ -19,7 +19,7 @@
 }
 .nameA{
   font-size: 80rpx;
-  color: #333;
+  color: rgb(245, 236, 236);
   font-weight: bold;
 }
 .but{
@@ -27,11 +27,12 @@
   width: 300rpx;
   line-height: 300rpx;
   border-radius: 50%;
-  background: #0f6cb4;
+  background: linear-gradient(to bottom, #369eff, #54acff);
   text-align: center;
   color: #fff;
   font-size: 50rpx;
   font-weight: bold;
+  /* height: 300rpx; */
 }
 @keyframes butA{
   0%{
@@ -59,7 +60,7 @@
 }
 
 .name1{
-  color: rgb(59, 59, 59);
+  color: #369eff;
 }
 
 .up{

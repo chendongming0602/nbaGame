@@ -12,7 +12,15 @@
   <image hidden="{{isPao}}" catchtap="pao" class="pao paoBut" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/pao.png"></image>
 </view>
 
-
+<!-- 开屏 -->
+<view class="guize guizeAs">
+  <view class="title">硬 币 专 家</view>
+  <view>1、说明</view>
+  <view class="lie"> 有时候一个小小的机会！就能指引你球队走向胜利 （抛到自己为胜利！）</view>
+  <view>2、奖励！</view>
+  <view  class="lie">30种‘球衣’背景任选一种！</view>
+  <view class="wu">5秒后进入</view>
+</view>
 <!-- <view class="rotate-wrap">
 <view class="line"></view>
 <view class="front" style="transform: translateZ(5px);"></view>

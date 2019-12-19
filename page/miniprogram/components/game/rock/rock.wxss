@@ -152,8 +152,8 @@ image{
     transform: scale(1);
   }
   90%{
-    opacity: 0.6;
-    transform: scale(0.6);
+    option: 1;
+    transform: scale(0.9);
   }
   100%{
     opacity: 0;

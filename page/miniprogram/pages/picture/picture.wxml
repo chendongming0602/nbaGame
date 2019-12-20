@@ -19,7 +19,7 @@
   <!-- 预览衣柜 -->
   <view class="yulan" hidden="{{!yulanFrom}}">
     <view style="width:100%;">
-      <swiper class="swiper" autoplay="true" interval="1500">
+      <swiper class="swiper" autoplay="true" duration="3000">
         <block wx:for="{{select}}" wx:key="{{item.id}}" >
           <swiper-item>
             <view class="swiperView">

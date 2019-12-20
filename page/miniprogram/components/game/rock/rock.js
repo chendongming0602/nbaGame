@@ -1,8 +1,9 @@
 // components/game/rock/rock.js
-var music = wx.createInnerAudioContext();
+
 let att=function(){
-  music.src = "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%BC%80%E5%A7%8B.mp3";
-  music.title = "开始音乐"
+  this.music = wx.createInnerAudioContext();
+  this.music.src = "https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/jiandao/%E5%BC%80%E5%A7%8B.mp3";
+  this.music.title = "开始音乐"
   let shibai = Math.ceil(Math.random() * (5 - 3) + 3);
 
 
@@ -70,7 +71,7 @@ Component({
     startE(){
       if(!this.data.isStart) return
       this.setData({ isStart:false});
-      music.play();
+      this.music.play();
       let userActive = this.data.userActive;
       let system=0;
       let count=0;
@@ -175,7 +176,8 @@ Component({
      
     },
     finish(e){//提示
-      this.setData({ isStart:true})
+      this.setData({ isStart:true});
+      this.music.pause();
       let arr0=[//平局
         "哎呀！竟然平局了！",
         "看来我们的修炼结果一样啊！",
@@ -217,12 +219,14 @@ Component({
   lifetimes: {
     attached: att,
     detached: function () {
+      this.music.destroy();
       // 在组件实例被从页面节点树移除时执行
     },
   },
   // 以下是旧式的定义方式，可以保持对 <2.2.3 版本基础库的兼容
   attached: att,
   detached: function () {
+      this.music.destroy();
     // 在组件实例被从页面节点树移除时执行
   },
   /**

@@ -18,7 +18,7 @@
   margin-top: 30rpx;
 }
 .active{
-  margin-top:20rpx;
+  margin-top:80rpx;
   padding: 20rpx 40rpx 0;
   border-top: 2px solid #DEDEDE;
 }

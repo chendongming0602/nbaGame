@@ -9,6 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    canvasHeight: 0,
     top:0,
     left:0,
     imgList:[
@@ -69,39 +70,89 @@ Page({
       sizeType: ['original', 'compressed'],
       sourceType: ['album', 'camera'],
       success:(res)=> {
-        const tempFilePaths = res.tempFilePaths[0];
-        if (res.tempFiles[0].size>200000){
-          wx.showModal({
-            title: '温馨提示~',
-            content: '你的选泽的图片尺寸较大，建议更换！',
-            cancelText:"继续上传",
-            confirmText:"更换照片",
-            success:(res)=>{
-              if (res.confirm) {
-                return this.picEvent();
-              } else{
-                isAlbum.isAlbumGF(tempFilePaths).then(res => {
-                  this.setData({
-                    [`imgList[1]`]: tempFilePaths
-                  })
-                }).catch(err => {
-                  wx.hideLoading()
-                });
-              }
-            }
-          })
-        }else{
-          isAlbum.isAlbumGF(tempFilePaths).then(res => {
+        const tempFilePaths = res.tempFiles[0];
+        console.log(res)
+        this.compressImage(tempFilePaths,(url)=>{//压缩图片
+          isAlbum.isAlbumGF(url).then(res => {//审核图片
             this.setData({
-              [`imgList[1]`]: tempFilePaths
+              [`imgList[1]`]: url
             })
           }).catch(err => {
-            wx.hideLoading()
+            wx.hideLoading();
+            wx.showModal({
+              title: '温馨提示',
+              content: `${err === 1 ? '图片存在违规可能，请更换图片！' :'照片尺寸过大，请更换图片！'}`,
+              showCancel: false,
+              success: () => {
+                this.picEvent();
+              }
+            })
           });
-        }
-        
+        });
       }
     })
+  },
+  compressImage(temp, callback) {
+    // console.log(temp.size)
+    if (temp.size > 100000) {
+      // console.log("压缩")
+      APP.loadS("图片压缩中...")
+      wx.getImageInfo({
+        src: temp.path,
+        success: res => {
+          // console.log("获取图片信息")
+          let { width, height } = res,
+            ctx = wx.createCanvasContext('compress', this);
+          height = height * (750 / width);
+          ctx.height = height;
+          // 可能它渲染还需要等一下
+          this.setData({
+            canvasHeight: height
+          }, () => {
+            // console.log("开始绘制图片信息1", height)
+            setTimeout(() => {
+              // console.log("开始绘制图片信息2")
+              ctx.drawImage(temp.path, 0, 0, 750, height);
+              ctx.draw(false, () => {
+                // 据说某些机型需要等待
+                setTimeout(() => {
+                  // console.log("开始绘制图片信息3")
+                  wx.canvasToTempFilePath({
+                    canvasId: 'compress',
+                    fileType: 'jpg',
+                    quality: 0.5,
+                    destWidth: 750,
+                    destHeight: height,
+                    success: res => {
+                      // console.log("开始绘制图片信息4")
+                      callback(res.tempFilePath);
+                      // wx.getFileInfo({
+                      //   filePath: res.tempFilePath,
+                      //   success(res) {
+                      //     console.log(res.size)
+                      //     console.log(res.digest)
+                      //   },
+                      //   fail(err){
+                      //     console.log(err,11)
+                      //   }
+                      // })
+                    },
+                    fail(err) {
+                      APP.loadS("压缩失败！")
+                    }
+
+                  }, this);
+                }, 500);
+              });
+            }, 500);
+          });
+        },
+
+      });
+    } else {
+      console.log("不压缩")
+      callback(temp.path);
+    }
   },
   inputEvent(e){//输入框
   let {value}=e.detail
@@ -195,11 +246,6 @@ Page({
     }else{//无奖励
       this.showModalE();
     }
-  
-    wx.showLoading({
-      title: '加载中...',
-      mask:true
-    })
     wx.getSystemInfo({//兼容屏幕
       success: (res) => {
         setTimeout(() => {

@@ -61,11 +61,10 @@ function isAlbumGF(url) {//进行检验
         if (res.result.errCode != 87014) {
           resolve(true)
         } else {
-          APP.toastS("此照片存在违规可能，请更换照片！")
-          reject(res)
+          reject(1)
         }
       }).catch(err=>{
-        APP.toastS("照片尺寸过大~请更换照片！")
+        reject(2)
       })
     })
   })

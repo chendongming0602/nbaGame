@@ -42,3 +42,5 @@
 <view hidden="{{isLoad}}">
   <loadC ></loadC>
 </view>
+
+<canvas canvas-id="compress" class="canvas" style="height:{{canvasHeight}}px;"></canvas>

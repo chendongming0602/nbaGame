@@ -1,5 +1,5 @@
 
-<scrollBox list="{{alls}}">
+<scrollBox list="{{alls}}" wx:if="{{!checking}}">
   <view class="alls" wx:for="{{alls}}" wx:key="{{index}}"  slot="name{{index}}">
     <image class="imgs" src="{{item.bg}}"></image>
     <view>
@@ -11,3 +11,18 @@
     <image class="up upImgA" src="https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/%E5%85%B6%E4%BB%96/%E4%B8%8A%E8%A1%8C.png"></image>
   </view>
 </scrollBox>
+
+
+<!-- 成功了(正式版隐藏) -->
+<view wx:if="{{checking}}">
+  <view class="jianglia" >
+    <view class="titlea">选择你的‘球衣’奖励</view>
+    <view class="qiuyiBoxa">
+      <image wx:for="{{select}}" wx:key="{{item.id}}" catchtap="imgE" data-index="{{item.id}}" class="imgsa {{item.id===indexs?'imgsBor':''}}" src="{{item.img}}"></image>
+    </view>
+  </view>
+  <view class="buta">
+    <view class="fqa" catchtap="fqE">放弃领取</view>
+    <view catchtap="querenE">确定领取</view>
+  </view>
+</view>

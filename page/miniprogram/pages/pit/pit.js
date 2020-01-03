@@ -1,5 +1,7 @@
 // miniprogram/pages/pit/pit.js
-const APP=getApp()
+const APP=getApp();
+import imgs from '../../utils/imgs.js';
+let { select } = imgs
 Page({
 
   /**
@@ -17,17 +19,46 @@ Page({
         name:"硬 币 专 家",
         bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/bg.png"
       },
-    ]
+    ],
+    checking: false,//是否在审核
+    select,//球衣数据
+    indexs: select[0].id,//球衣的id
   },
+  imgE(e) {//选泽
+    let { index } = e.currentTarget.dataset
+    this.setData({ indexs: index });
+  },
+  querenE() {//确认领取奖励
+    wx.redirectTo({
+      url: '/pages/picture/picture?id=' + this.data.indexs,
+    });
+  },
+  fqE() {//取消
+    wx.showModal({
+      title: '温馨提示',
+      content: '确定放弃奖励吗？',
+      showCancel: true,
+      cancelText: '取消放弃',
+      cancelColor: '#369eff',
+      confirmText: '确认放弃',
+      confirmColor: '#999999',
+      success: function (res) {
+        if (res.confirm) {
+          wx.navigateBack({
+            delta: 1
+          })
+        }
+      },
 
-  ggoo(){
-
+    })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    this.setData({
+      checking: global.checking
+    })
     // this.dong();
   },
 

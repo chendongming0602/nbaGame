@@ -2,19 +2,32 @@
 wx.cloud.init({
   traceUser: true,
   env: 'dongming-y95n7'
-})
+});
+let { ver } = require('./utils/version.js');//审核关闭需要的东西
 App({
   userInfo:{//用户资料
     isPower:false
   },
   isAPPLoad:false,
   onLaunch: function () {
-    this.getUserPic().then(()=>{//授权
+    Promise.all([ver()]).then(()=>{//审核
       this.isAPPLoad=true
       if (this.checkLoginReadyCallback) {
         this.checkLoginReadyCallback();
       }
+    }).catch(err=>{
+      this.isAPPLoad = true
+      if (this.checkLoginReadyCallback) {
+        this.checkLoginReadyCallback();
+      }
     })
+    
+    // this.getUserPic().then(()=>{//授权
+    //   this.isAPPLoad=true
+    //   if (this.checkLoginReadyCallback) {
+    //     this.checkLoginReadyCallback();
+    //   }
+    // })
   },
   getUserPic() {
     return new Promise((resolve, reject) => {

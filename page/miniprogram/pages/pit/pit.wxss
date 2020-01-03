@@ -85,3 +85,58 @@
 .upImgA{
   animation: upImgA 1.5s linear infinite;
 }
+
+
+
+
+
+
+.jianglia{
+  padding: 30rpx 30rpx 160rpx;
+  text-align: center;
+  background: linear-gradient(to bottom, #1f1c2c, #928dab);
+}
+.titlea{
+  color: #0f6cb4;
+  font-size: 45rpx;
+  font-weight: bold;
+  padding:20rpx 0;
+}
+.qiuyiBoxa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imgsa{
+  width: 30%;
+  height: 280rpx;
+  min-width: 20%;
+  margin-top: 20rpx;
+  border-radius: 5rpx;
+}
+.imgsBor{
+  border: 3px solid #369eff;
+}
+.buta{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 50rpx;
+  padding: 0 30rpx;
+}
+.buta view{
+  text-align: center;
+  line-height: 80rpx;
+  min-width: 320rpx;
+  border-radius: 10rpx;
+  /* background: #369eff; */
+  background: linear-gradient(to bottom, #369eff, #54acff);
+  color: #fff;
+  font-size: 30rpx;
+}
+.buta .fqa{
+  background: #999;
+}

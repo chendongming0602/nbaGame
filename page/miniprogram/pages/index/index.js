@@ -4,12 +4,14 @@ const APP = getApp()
 Page({
   data: {
     list:[
-      "进入NBA",
-      "领取奖励 ！",
+      "进入“NBA”",
+      "获取“球衣”",
       "穿上“球衣”"
     ],
     isPower:false,//是否授权
     loginShow:false,//显示授权弹窗
+    isShow:false,//app.js执行完再显示
+    checking:false,//是否在审核
   },
   close(){//关闭授权弹窗
     this.setData({ loginShow:false})
@@ -40,16 +42,18 @@ Page({
   },
   onLoad: function() {
     if (APP.isAPPLoad){//和APP回调判断是否授权了
-      this.setData({
-        isPower: APP.userInfo.isPower
-      });
+        this.alls()
     }else{
       APP.checkLoginReadyCallback = res => {
-        this.setData({
-          isPower: APP.userInfo.isPower
-        });
+        this.alls()
       }
     }
+  },
+  alls(){
+    this.setData({
+      isShow:true,
+      checking: global.checking
+    });
   },
   onShareAppMessage: function () {
     return {

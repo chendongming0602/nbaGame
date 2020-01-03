@@ -1,4 +1,4 @@
-<view class="indexBg" style="background:url('https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/index/bg.jpg') no-repeat center/cover">
+<view wx:if="{{isShow}}" class="indexBg" style="background:url('https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/index/bg.jpg') no-repeat center/cover">
   <view class="select">
     <view catchtap="itemEvent" data-index="{{index}}" class="item" wx:for="{{list}}" wx:key="{{index}}">{{item}}</view>
   </view>

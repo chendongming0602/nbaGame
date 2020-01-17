@@ -20,7 +20,7 @@ Page({
         bg:"https://minis-resources-1252149780.cos.ap-guangzhou.myqcloud.com/nbaGame/components/paoyingbi/bg.png"
       },
     ],
-    checking: false,//是否在审核
+    checking: true,//是否在审核
     select,//球衣数据
     indexs: select[0].id,//球衣的id
   },
@@ -56,12 +56,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      checking: global.checking
-    })
+    if (APP.isAPPLoad) {//和APP回调判断是否授权了
+      this.alls()
+    } else {
+      APP.checkLoginReadyCallback = res => {
+        this.alls()
+      }
+    }
+   
     // this.dong();
   },
-
+  alls(){
+    this.setData({
+      checking: global.checking
+    });
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

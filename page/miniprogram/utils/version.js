@@ -2,7 +2,7 @@ const { config } = require('./config.js');
 // 隐藏会员支付内容，方便过审
 global.checking = false;
 
-const reviewTime = 20200112; // 最迟审核通过时间
+const reviewTime = 20200125; // 最迟审核通过时间
 
 function getTime() {
   const time = new Date();

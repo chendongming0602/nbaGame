@@ -12,15 +12,20 @@
 }
 .nbaBg{
   height: 100vh;
+  padding-bottom: 10%; 
   /* padding-left: 40rpx; */
 }
-.player{
-  margin-top: 30rpx;
+.player,.teamBox{
+  margin-top: 10%;
+
 }
 .active{
-  margin-top:80rpx;
+  /* margin-top:10%; */
   padding: 20rpx 40rpx 0;
   border-top: 2px solid #DEDEDE;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
 }
 .activeTitle{
   text-align: center;

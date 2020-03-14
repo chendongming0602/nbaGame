@@ -1,6 +1,7 @@
 // pages/pits/pits.js
 import imgs from '../../utils/imgs.js';
-let {select}=imgs
+let {select}=imgs;
+const APP=getApp();
 Page({
 
   /**
@@ -9,7 +10,7 @@ Page({
   data: {
     select,//球衣数据
     indexs:select[0].id,//球衣的id
-    isShow:false,
+    isShow:true,
     count:2,
   },
   confirm(){//触发奖励
@@ -50,9 +51,21 @@ Page({
     let {id}=options;
     this.setData({
       count:id
-    })
+    });
+    if (APP.isAPPLoad) {//和APP回调判断是否授权了
+      this.alls()
+    } else {
+      APP.checkLoginReadyCallback = res => {
+        this.alls()
+      }
+    }
   },
-
+  alls() {
+    console.log(global.checking)
+    this.setData({
+      isShow: global.checking
+    });
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

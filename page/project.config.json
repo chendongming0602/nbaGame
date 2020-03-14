@@ -82,10 +82,10 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 5,
 					"name": "玩",
 					"pathName": "pages/pits/pits",
-					"query": "",
+					"query": "id=1",
 					"scene": null
 				}
 			]

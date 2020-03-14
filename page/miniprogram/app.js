@@ -21,7 +21,21 @@ App({
         this.checkLoginReadyCallback();
       }
     })
-    
+    wx.login({
+      success:(res=>{
+        wx.request({
+          url: 'http://127.0.0.1:3000/login/wxLogin',
+          method:"POST",
+          data:{
+            code:res.code
+          },
+          success:res=>{
+            console.log(res)
+          }
+        })
+        console.log(res)
+      })
+    })
     // this.getUserPic().then(()=>{//授权
     //   this.isAPPLoad=true
     //   if (this.checkLoginReadyCallback) {

@@ -1,7 +1,7 @@
 <!-- 剪刀石头布 -->
-<rock wx:if="{{count==1}}" bind:confirm="confirm"></rock>
+<rock wx:if="{{count==1&&!isShow}}" bind:confirm="confirm"></rock>
 <!-- 硬币 -->
-<coin  wx:if="{{count==2}}" bind:confirm="confirm"></coin>
+<coin  wx:if="{{count==2&&!isShow}}" bind:confirm="confirm"></coin>
 
 
 <!-- 成功了 -->
